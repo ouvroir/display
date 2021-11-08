@@ -18,3 +18,6 @@ Cet outil réalisé par un prestataire de service externe propose une interface 
 Grâce au modèle documentaire mobilisé, cette information peut être qualifiée par niveau de preuve et sourcée, mais aussi partagée sous forme de données ouvertes et liées. L’outil permet de générer des visualisations tridimensionnelles à partir des informations spatiales enregistrées. Plusieurs moteurs de rendu sont implémentés pour produire des hypothèses de restitution sous la forme de table lumineuse ou d’espaces parcourables en 3D dans un navigateur web. Les développements logiciels sont libres et ouverts. Les données de l’application doivent pouvoir être sérialisées en JSON-LD, en respectant le modèle de données exprimé en OWL à des fins d’interopérabilité. Les développements permettent de générer des visualisations 3D à la volée basées sur le standard WebGL.
 
 Pour parvenir à la conception de cet outil de recherche, on prévoit deux étapes de conception (réalisation d’un pilote en année 2, suivie d’une mise en pratique et d’une évaluation puis une deuxième itération en année 3) qui seront prolongées par une étape de dissémination associée à des recherche de financement subséquents en fonction de l’intérêt des partenaires muséaux.
+
+## Meta
+- [feuille de route](https://github.com/ouvroir/expots/milestones?direction=asc&sort=due_date&state=open)
