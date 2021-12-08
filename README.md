@@ -21,3 +21,11 @@ Pour parvenir à la conception de cet outil de recherche, on prévoit deux étap
 
 ## Meta
 - [feuille de route](https://github.com/ouvroir/expots/milestones?direction=asc&sort=due_date&state=open)
+
+
+
+## Axe 1 – LA COLLECTION EXPOSÉE 
+
+MARIE FRASER , UQAM
+
+Cet axe étudie diachroniquement les expositions de collections depuis 1960 afin de retracer l’émergence des nouveaux usages, de les documenter et de les analyser. Il entreprend la première histoire transversale des expositions de collections et mise sur l’analyse critique de trois aspects des mises à vue : le déploiement, la circulation et la trajectoire de l’œuvre d’art. Le premier vise à interroger le format et la nature des expositions de collections et à montrer qu’il existe des conventions muséographiques (chronologiques, thématiques, nationales (Lacroix privilégiant certains types d’accrochages et de mises en séries d’œuvres (Greenberg 1986). Si les musées cherchent à redynamiser leurs collections, c’est pour les sortir des systèmes de convention et des modèles de permanence qui ont longtemps déterminé leur présentation et les arrimer aux enjeux du contemporain (Camart 2018; Fraser et Dubé-Moreau 2016-2017). Il s’agit de voir jusqu’à quel point les nouveaux usages correspondent à l’éclatement de ces modèles narratifs et temporels hérités d’une histoire de l’art occidentale canonique (Beal 2016; Champion 2011), universelle et coloniale. Le second aspect examine la circulation des collections comme modèle de renforcement et de dissémination des savoirs. Quels rôles les collections muséales ont-elles joués dans la propagation des grands récits qui ont façonné la discipline (Griener 2007; Haskell 2002) ? Le troisième aspect est inspiré d’une approche anthropologique (Appadurai 1986; Kopytoff 1986; Latour 2000; Morton 2013; Van Eck 2015). Il s’intéresse à la façon dont l’exposition des collections influence le statut, la valeur et la médiation des œuvres d’art et examine comment les nouveaux usages engagent une réflexion critique sur les collections et leur histoire. Cet axe s’accompagnera d’une réflexion sur le caractère souvent lacunaire de la documentation des expositions, et sur les problèmes historiographiques et épistémologiques qu’une telle situation entraine.
