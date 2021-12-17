@@ -38,7 +38,7 @@ travail sur des cas (Expositions particulières a: points tournants, cas partic
 avant: uml 
 modélisation orientée objet (pas un modèle de web sémantique à la base)
 - classes et propriétés
-- proposer un modèle générique pour le domaine patrimoinial 
+- proposer un modèle générique pour le domaine patrimonial 
 - dans le but de permettre l'interopérabilité entre les systèmes dans les musées
 - rendre l'information sémantique (rdf) explicite pour permettre organisation de migration des données
 
@@ -58,10 +58,11 @@ linked open data
 CIDOC CRM (conceptual reference model)
 - documenter, expliciter l'information
   
+
 CIDOC + couches archéologiques / extension pour documenter le positionnement des objets
 - modèle ontologique qui décrit ce qu'est une exposition, un accrochage
 - utile car il y a beaucoup d'inférences (être en face, à côté etc.)
 
 ## common
 
-- archives numérisées par les auxiliaires etc.
+- archives numérisées par les auxiliaires etc. <!-- tenative/questions pour un scénario d'utilisation dans le repo *common*-->
