@@ -48,3 +48,17 @@ exemples de documentation expositions disponibles sur le MAC répertoire
 [tests données ouvertes sur les expositions](https://observablehq.com/d/3975a22a5d9ccb85)
 
 - pas de données qui pourraient nous servir à priori...
+
+## MoMA
+
+- [plan d'exposition de Herbert Bayer](https://www.moma.org/collection/works/287), objet conservé dans la collection du MoMA, identifié (vision artificielle) dans des vues d'expositions 
+
+- [From the Collection: 1960–1969](https://www.moma.org/calendar/exhibitions/1624)
+
+  > *This exhibition contains over 350 works. However, MoMA's collection  holds over 7,000 objects from the 1960s that span a range of mediums and departments—many more than visitors will encounter in the galleries.  Explore some of these works in [MoMA's online collection](https://www.moma.org/collection). Search the entire [decade of the 1960s](https://www.moma.org/collection/works?locale=en&utf8=✓&q=&classifications=&date_begin=1960&date_end=1969&with_images=1), or a [particular year](https://www.moma.org/collection/works?locale=en&utf8=✓&q=&classifications=&date_begin=1963&date_end=1963&with_images=1). You can also [filter by department](https://www.moma.org/collection/works?locale=en&utf8=✓&q=&classifications=6&date_begin=1963&date_end=1963&with_images=1) to focus on a specific medium.*
+
+- [New to the Print Collection: Matisse to Bourgeois ](https://www.moma.org/calendar/exhibitions/1272)
+
+  > This exhibition, which showcases some 80 prints and artists’ books the  Museum has acquired over the past two years, reveals how an art  collection is always a work in progress. 
+
+le MoMA a une [API](https://api.moma.org/) (qui n'est pas encore publique) et des données ouvertes sur Github notamment. Les expositions ne documentent pas la liste des œuvres, seulement aux artistes et commissaires (humains, rôles).
