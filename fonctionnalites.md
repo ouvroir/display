@@ -1,8 +1,20 @@
 # Fonctionnalités du logiciel prévu
 
-Décrire les fonctionnalités visées par Display
+<!--Décrire les fonctionnalités visées par Display-->
 
-Objectif: documenter des expositions
+Questions:
+
+- quel degré de détail pour documenter l'expographie? Ex: si une vidéo est installée dans la salle, faut-il préciser si c'est sur un écran (type TV) ou sur un projecteur? 
+
+
+
+
+
+
+
+
+
+## Objectif: documenter des expositions
 
 - reconstituer des expositions à partir d'archives
   - émettre des hypothèses concernant les lacunes dans la documentation
@@ -14,16 +26,19 @@ Fonctionnalités connexes:
 - décrire des œuvres (pour les placer dans l'espace ensuite)
 - vision artificielle: identifier les œuvres dans les vues d'exposition? (cf [projet MoMA](https://www.moma.org/calendar/exhibitions/history/identifying-art))
 
-Besoin: 
+## Besoins
 
 - interface pour entrer et manipuler l'information
 - backend: données structurées qui ne sont pas dépendantes du logiciel (CIDOC)
 
 
 
+### SI <--> modèle
 
 
-Questions:
 
-- quel degré de détail pour documenter l'expographie? Ex: si une vidéo est installée dans la salle, faut-il préciser si c'est sur un écran (type TV) ou sur un projecteur? 
 
+
+
+
+## Prestataire
