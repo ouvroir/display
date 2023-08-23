@@ -4,13 +4,7 @@
 
 Questions:
 
-- quel degré de détail pour documenter l'expographie? Ex: si une vidéo est installée dans la salle, faut-il préciser si c'est sur un écran (type TV) ou sur un projecteur? 
-
-
-
-
-
-
+- quel degré de détail pour documenter l'expographie? Ex: si une vidéo est installée dans la salle, faut-il préciser si c'est sur un écran (type TV) ou sur un projecteur? oui
 
 
 
@@ -33,9 +27,15 @@ Fonctionnalités connexes:
 
 
 
+œuvres → compatibilité avec LinkedArt
+
+expositions → compatibilité avec CIDOC-CRM
+
+
+
 ### SI <--> modèle
 
-
+le modèle se concentre sur l'aspect matériel et physique, donc parle d'artefacts et non d'œuvres d'art. On pourrait par la suite envisager une extension qui définirait les concepts et idées (qui distinguent les objets des œuvres d'art par exemple) mais à l'échelle des besoins actuels, de documenter dans une optique de reconstitution, le premier effort est donc sur la dimension matérielle.
 
 
 
