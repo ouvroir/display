@@ -23,6 +23,8 @@ Grâce au modèle documentaire mobilisé, cette information peut être qualifié
 
 Pour parvenir à la conception de cet outil de recherche, on prévoit deux étapes de conception (réalisation d’un pilote en année 2, suivie d’une mise en pratique et d’une évaluation puis une deuxième itération en année 3) qui seront prolongées par une étape de dissémination associée à des recherche de financement subséquents en fonction de l’intérêt des partenaires muséaux.
 
+Le travail en cours sur le modèle ontologique peut être consulté dans le répertoire suivant : https://github.com/ouvroir/display-ontology
+
 ## Description (en)
 
 The historical research carried out by the first axis of the CIÉCO partnership involves the mobilization and exploitation of numerous archival sources in order to document the history of collections displays in art museums and to be able to proceed with their reconstitution. A tool is needed to support the entire research process, from the collection of historical information to the formulation of hypotheses and the recording of results.
@@ -45,6 +47,7 @@ To achieve the design of this research tool, two design stages are planned (real
 
 *Display is designed by the laboratory in the framework of the Partnership New uses of collections in art museums. Project manager: Lena Krause. Scientific director: Emmanuel Chateau-Dutier.
 
+Work in progress on the ontological model can be consulted in the following repository: https://github.com/ouvroir/display-ontology
 
 ## Axe 1 – LA COLLECTION EXPOSÉE 
 
