@@ -9,10 +9,12 @@ tags:
     
 ---
 
+voir google drive : https://docs.google.com/document/d/1urcUllX1J12AdRCAUXz7Y8uXBAhm4GfnSOHk5WHZBhM/edit?usp=sharing
+
+
 ### Contexte et définition du projets
 
-- Cieco
-- Ouvroir
+-CIECO
 - Cible du projet
 - Objectifs par ordre d’importance
 - Attentes particulières
