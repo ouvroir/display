@@ -10,15 +10,17 @@ tags:
 ---
 
 ## 2024-01-17
+WD, ECD, ZR
 
 Enlever les mentions graphs et mettre plus en avant les fonctionnalités. 
 Gestions utilisateurs par Common. Éliminer ces questions.
-Réintroduction d’un outil de visualisation et de saisie 2D de l’espace : Interface point qu'on peut agrandir pour l'étirer et définir ratio ou dim de l'interface. 
+Réintroduction d’un outil de visualisation et de saisie 2D de l’espace 
 
 ## 2023-12-20
+DV, ZR, ECD
 
 Ontologie : 
-- Défi point de vue multiples : qu'est-ce qu'on fait pour placer les objet les uns par rapport aux autres dans ce cas là?
+- Défi points de vue multiples : qu'est-ce qu'on fait pour placer les objet les uns par rapport aux autres dans ce cas là?
 - 2 sortes de topologique ?: 
  une basée sur les points de vue : à gauche à droite ambiguë
  une basée sur les relations entre les expôts. : ECD pour cette sorte afin d'exclure la visite. 
@@ -34,6 +36,7 @@ Biblio :
 
 
 ## 2023-12-13
+DV, ZR, ECD
 
 Ontologie :
 - Présentation EM d’[OntoExhibit](https://andalexproject.iarthislab.eu/semantic-web-seminar/) : Ne semble pas trop en contradiction avec notre ontologie. 
@@ -96,10 +99,37 @@ Calendrier :
 - avril-mai : faire un article 
 - avril-mai : prototype pour request for comment
 
+## 2023-12-06
+ECD, ZR
+
+Réunion contenu cdc : 
+Prob technique : web sémantique. comment géré les données semantiques dans un nouveau format. Faire données sémantique comme données relationnelles. Appli nativement rdf mais pas de dev qui savent pas faire du front end et du back end en rdf. Il nous faut quelqu'un pour les deux. Accent sur la prod des données et formulaire de saisie.
+Technologie : choisir quelqu'un de spécialiste en bdd et graph. Graph database. Ou vers bdd orientée document. fichier json stocké dans bdd. Structurer données sous forme de notice editable?
+Pas besoin d'aller faire une bdd sql.
+Utilisateur, chacun voit ses expositions. Pas d'idée de partage.
+Collègue signalement exposition à Malaga.
+Fiche signalétique : documentation de l'accrochage.
+Comment saisir un document, une source pour attester de l'information.
+Information renseignement spatial.
+Créé/générer liste d'oeuvre au format CSV
+Soit génére salle pour mettre les oeuvres dedans.
+Comment elles fonctionnent les unes les autres.
+POUVROIR VISUALISER LA SPATIALISATION DES OBJETS DE FAÇON DIAGRAMATIQUE OU 3D. Au dev de trouver.
+visualisation simple vue écorchées. représentation abstraite. Comment faire diagram.
+Standard du web pour la 3D : Webgl.
+Au lieu de se dire de faire la numérisation de 3D. Pas durable. Pas processus de travail.
+Partir du modèle pour partir d'un outil. Pas de rendu illusitionniste souhaité. On souhaite une analyse.
+Se pose la question du processus analytique. Création d'affordance. Acceptation de l'incertitude et les inconnus.
+Processus et modèle docu pour enregistrer les expo. Peut servir à créer des expositions.
+Schématisation
+Sortir document ?
+
+
 ## 2023-10-25
+DV, ZR, ECD
 
 Ontologie :
-- Résolution pour l’exhibit/artifact : on ne défini pas la nature de l’expôt dans l’ontologie sauf si c’est un bot:element
+- Résolution pour l’exhibit/artifact : on ne définit pas la nature de l’expôt dans l’ontologie sauf si c’est un bot:element
 - Un display peut être un expôt
 - Support et devices sont devenus des sous-classes de Element/BuldingElement.
 - Display devient une sous classe de Exhibit et includes exhibit.
@@ -117,6 +147,7 @@ Ontologie :
 - Pousser en ligne l’ontologie. OK
 
 ## 2023-10-10
+DV, ZR
 
 - discussion sur les termes et relations entre expôt, artifacts, element etc. 
 - discussion sur les circulations dans l’espace et ABOX
@@ -132,6 +163,7 @@ Ontologie :
 - interface : utilité et propriétés
 
 ## 2023-09-18
+LK, DV, ZR, ECD
 
 - hiérarchie de différents types d'entités
 - étude et présentation la building topology ontology (BOT)
@@ -144,6 +176,7 @@ Ontologie :
 - comment travailler de manière schématique :  [scratch](https://scratch.mit.edu/): langage de programmation visuel (python)
 
 ## 2023-09-07
+LK, DV, ZR, ECD
 
 jeu: construit une exposition (toolbox)
 - avec stylo sur carton plastifié pour écrire-dessiner/effacer
@@ -157,8 +190,33 @@ jeu: construit une exposition (toolbox)
 - Vérifier la cidoc-crm
 
 ## 2023-08-23
+LK, DV, ZR, ECD
+
+- Display = Modèle documentaire qui permet de prendre en charge l'information lacunaire. Intérêt aussi pour faire des inférences et émettre des hypothèses.
+Relations topologiques (entre les expots) comme entités avec des attributs
+- La salle d'exposition devient plutôt secondaire car on centre sur le display, qui est ensuite dans la salle. La question qui se pose est l'ordre de visite, modélisé à l'échelle du display, propriété follows/isFollowedBy (pour donner une idée)
+- Perspective centrée sur les objets. Requiert une seconde perspective sur la représentation topologique / dans l'espace. Question des expositions et de l'instanciation des expositions (inspiré de RiCO)
+- Typage des sous-classe pour mieux documenter les attributs des expots ?
+- Travailler sur les contraintes pour améliorer l'ontologie.
+- Comment définit-on un lieu?
+  Exposition et instanciation de l’exposition cf. Record (ne devrait-on pas plutôt pour le coup adopter un modèle proche de CIDOC)
+- Séquence vs modèle labyrinthique : plusieurs séquences possibles en même temps. Affordances. Séquences distributives: manière dont les pièces/display communiquent les uns entre les autres → chemins possibles.
+- Faut-il représenter l'espace? Pourrait-il s'exprimer autrement?
+- Première question pour trancher: 
+ orienté objet ou événement? --> on choisit d’adopter une approche très matérielle dans la définition de l’ontologie.
+comment traiter l'espace et la topologie? 
+combiner CIDOC mais avec d'autres modèlesau besoin
+
+#todo
+test avec l'[exposition de la collection par Geneviève Cadieux](https://macrepertoire.macm.org/evenement/l-oeil-et-l-esprit-point-de-vue-de-genevieve-cadieux/) au MAC
+Building Topology ontology BOT → mécanique du batiment et flux
+À analyser. BIM
+Test de modélisation avec Protégé 
+
 
 ## 2023-08-03
+
+
 
 ## 2023-07-18
 

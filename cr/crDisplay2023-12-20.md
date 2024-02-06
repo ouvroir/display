@@ -1,5 +1,5 @@
 ---
-title: Réunion Display 2023-12-20
+title: CR Display 20 dec 2023
 desc : réunion de la réunion  display
 author: Ouvroir
 date: 2023-12-20
@@ -11,7 +11,7 @@ tags:
 
 - vitrine DH 
 
-visualisation requete sparql : Sparnatural
+visualisation requête sparql : Sparnatural
 
 - terminer encodage
 
@@ -39,15 +39,15 @@ Comment faire si on sait pas dans quelle salle ? Du coté de Cidoc ?
 - Pas de dimensions mais des relations topo. Comment faire pour un export de plan éclaté ?
 
 - de quels informations a besoin un algorithme de spatialisation. 
-- 
 
 => On a fini de décrire les 6 premières salles.
 
 En vis à vis = pas le spectateur
 
-  Exemple de ZR : Kitchen planner d’IKEA.
-
-Regarder app pour mapping archeology pour gestion des sources et placement d'objet: 
+  
+Exemple de ZR : 
+- Kitchen planner d’IKEA.
+- Regarder app pour mapping archeology pour gestion des sources et placement d'objet: 
 - https://www.fulcrumapp.com/apps/archaeological-sites/
 drag-and-drop interface to create most data collection apps: no spreadsheets, no code. Require, allow, or disable location capture in a click. Easily include advanced geospatial geometries with any app. For unique requirements, use Javascript to fully customize any app or process.
 Capture device location by default for better accuracy and ease of use. Show field workers the data, layers, and geometries associated with their records — on the basemap they choose, even offline. And make it easy for them to collect accurate point, line, and polygon data.
