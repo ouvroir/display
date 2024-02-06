@@ -1,5 +1,5 @@
 ---
-title: Réunion sur Display 2023-12-13
+title: CR Display 13 dec 2023
 desc : réunion sur le projet display du 13 dec 2023
 author: ECD, ZR, DV
 date: 2023-12-13
@@ -29,7 +29,7 @@ Endroit un peu compliqué dans leur ontologie mais critique de cidoc intéressan
 Modèle influencé par FRBR, pourquoi pas LRMN?
 
 FRBR modèle pour les biblio 
-F1 idée de l'oeuvre
+F1 idée de l'œuvre
 F2 expression
 F4 manifestation
 F5 Item 
@@ -51,16 +51,14 @@ ou
 ou 
 - ~~E70 Thing : parce qu'on veut que ce soit tout (trop general)~~
 
-
 P16 used specific object (was used for) : c'est une propriété
-
 
 pour décrire l'exposition connexion par display : 
 - E78 Curated Holding (pas utilisé par OntoExhibition)
 
 dans Linked art l'exposition est E89 Propositional Object. C'est un discours. 
 
-E29 Design or Procedure sont trop compliqués
+E29 Design or Procédure sont trop compliqués
 
 Pourquoi on ne connecte pas l'itération à l'exhibition space? 
 
@@ -70,9 +68,11 @@ E87 Curation activity
 
 ## display:Element, avec ou sans hiérarchie de classe?
 
-Est-ce qu'on s'embarrasse d'une hiérarchie de classe dans élément. Il y a une peut-être une question de cohérence ici en lien avec notre approche de `display:Exhibit`. Suggestion : nous pourrions conserver un seul niveau sous `display:Element`, par exemple support, device, etc. Et n'utiliser que deux sortes d,instanciation, soit les choses sont un exhibit (notre first class citizen) soit les choses sont un Element avec un typage par vocabulaire contrôlé (ex. AAT). Nous pourrons aisément faire usage des restrictions de propriétés en OWL pour classer automatiquement par inférence les Element dans les classes appropriées comme support et device. Éventuellement nous pourrions utiliser SHACL pour contrôler et documenter les usages possibles des vocabulaires et nous assurer que les logiques puissent fonctionner systématiquement. D'ailleurs, il pourrait probablement être une bonne idée de faire intervenir SHACL en lien avec les formulaires pour populer.
+Est-ce qu'on s'embarrasse d'une hiérarchie de classe dans élément. Il y a une peut-être une question de cohérence ici en lien avec notre approche de `display:Exhibit`. Suggestion : nous pourrions conserver un seul niveau sous `display:Element`, par exemple support, device, etc. Et n'utiliser que deux sortes d’instanciation, soit les choses sont un exhibit (notre first class citizen) soit les choses sont un Element avec un typage par vocabulaire contrôlé (ex. AAT). Nous pourrons aisément faire usage des restrictions de propriétés en OWL pour classer automatiquement par inférence les Element dans les classes appropriées comme support et device. Éventuellement nous pourrions utiliser SHACL pour contrôler et documenter les usages possibles des vocabulaires et nous assurer que les logiques puissent fonctionner systématiquement. D'ailleurs, il pourrait probablement être une bonne idée de faire intervenir SHACL en lien avec les formulaires pour populer.
 
 ## RCC8 
+
+[Lien zotero](zotero://select/groups/2480242/items/3YHP4X2E)
 
 Toutes les choses situées dans l'espace sont des E53 Place. Radical. Les colonnes sont des places. 
 
@@ -83,10 +83,12 @@ Très semblable à notre affaire mais ont utilisé une autre stratégie. Le fond
 
 Dans geosparql tout est un objet spatial. 
 
+https://drops.dagstuhl.de/storage/00lipics/lipics-vol086-cosit2017/LIPIcs.COSIT.2017.2/LIPIcs.COSIT.2017.2.pdf
+
 ## Interface
 
 ECD trouve que c'est élégant, concis et efficace. Avec économie de classe. 
-Mais la question : comment on interface ça pour l'éditer? N'y a t il pas d'enjeux du coté des inférences?
+Mais la question : comment on interface ça pour l'éditer ? N'y a-t-il pas d'enjeux du côté des inférences ?
 Peut-être peut-on faire des fiches docu et on exprime ca ensuite par export avec notre ontology
 David pense qu'il est important d'avoir accès directement aux inférences. 
 Difficile de trouver dev de faire requêtes sparql avec formulaire. David pense qu'on va faire le sparql et le donner au dev. 
@@ -106,13 +108,13 @@ http://stylo-doc.ecrituresnumeriques.ca/fr/edition-collaborative/ à tester
 1_Livrable pour request for comment. 
 
 Publier ontology avec jeux de données : 
-avec Feux Pales et une sale de Marie
+avec Feux Pales et une salle de Marie
 
 2_Faire un article en parlant des ontologies choisies et nos choix. 
 
 Pour qui ? : communauté du web sémantique, muséale. 
 
-- Semantic Web Journal ? Article difficile à placer? Feedback pertinent. 
+- Semantic Web Journal ? Article difficile à placer ? Feedback pertinent. 
 - DH 2024 Washington : David et Lena ou Zoë
 - Humanistica ?
 
@@ -122,7 +124,7 @@ Pas forcément l'interopérabilité pour l'instant
 Enjeux plutôt du côté de la relation entre objet sont des relations de graphes. 
 Technique : on fait du rdf et pas du property graphe. Parce que sinon pas d'ontologie. 
 Propriété owl nous intéresse parce que fait déjà bcp de choses rien qu'avec ce qu'on a. 
-Expressivité owl est mise à profit grâce aux chaines de propriété, restrictions pas forcément utile ici, mecanisme heritage et propriété c'est rdf. 
+Expressivité owl est mise à profit grâce aux chaines de propriété, restrictions pas forcément utile ici, mecanisme héritage et propriété c'est rdf. 
 Discuter dans l'état de l'art de la docu en xml et modèle hiérarchique. On aurait pu documenter en relationnel mais on peut pas faire d'interférence, on perd en sémantique et les rapports entre les classes. Plus flexible qu'un modèle relationnel. Permet de les lier avec autres ontologies muséales et architecturales. 
 
 Demander à Marie de préparer une salle compliquée et la tester. 
