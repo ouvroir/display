@@ -1,5 +1,5 @@
 ---
-title : Réunion display 12 fev 2024
+title : CR Display 12 fev 2024
 author: ouvroir
 date: 2023-02-12
 draft: false
@@ -70,18 +70,18 @@ Sparnaturel
 
 ## CDC
 
-On procède à un Obétat des lieu du document, Zoe a de la difficulté à définir ce qu'on demande d'un point de vue technique, voudrait savoir à qui s'adresse le CDC, à quel type de développeur.
+On procède à un état des lieux du document, Zoe a de la difficulté à définir ce qu'on demande d'un point de vue technique, voudrait savoir à qui s'adresse le CDC, à quel type de développeur.
 
-Le fait de pouvoir écrire les objectifs en liste à puces a beaucoup aidé pour avancé. Avoir un retour sur le contenu écrit. Pour les fonctionnalité pas écrit encore. Travailler sur le schéma.
+Le fait de pouvoir écrire les objectifs en liste à puces a beaucoup aidé pour avancé. Avoir un retour sur le contenu écrit. Pour les fonctionnalités pas écrit encore. Travailler sur le schéma.
 
-Difficulté de l'exercice: définir le périmètre du technique et le périmètre fonctionnel. Ce type de document ne doit pas préciser le technique, c'est au prestatire de démontrer sa capacité à proposer un solution adéquate.
+Difficulté de l'exercice : définir le périmètre du technique et le périmètre fonctionnel. Ce type de document ne doit pas préciser le technique, c'est au prestataire de démontrer sa capacité à proposer un solution adéquate.
 
 Distinction entre front-end et back-end: si David veut bien se charger des requêtes SPARQL, il faudrait cibler un développeur centré front-end (design, interface utilisateur) mais il faudra aussi préciser l'interfaçage front-back, traduction par API. 
-Zoe se concentre donc sur le front end, les fonctionnalités de l'applications.
+Zoe se concentre donc sur le front end, les fonctionnalités de l'application.
 
 Zoe a travaillé sur un document visuel qui est déjà proche d’un wireframing. Lena proposition d’aborder la question sous la forme d’un storymapping plutôt que d’un wireframing. Cela consiste à dire ce que l’utilisateur peut faire, pourquoi il voudrait faire ça. Centré sur les besoins et les intentions des utilisateurs sans entrer dans les détail.
 
-Cette modalité retenue en partie parcequ’a besoin de travailler visuellement pour bien comprendre les fonctionnalités.
+Cette modalité retenue en partie parce qu’a besoin de travailler visuellement pour bien comprendre les fonctionnalités.
 
 Dans le document écrit: 
 - présentation du projet 
