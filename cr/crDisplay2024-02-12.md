@@ -74,7 +74,7 @@ On procède à un état des lieux du document, Zoe a de la difficulté à défin
 
 Le fait de pouvoir écrire les objectifs en liste à puces a beaucoup aidé pour avancé. Avoir un retour sur le contenu écrit. Pour les fonctionnalités pas écrit encore. Travailler sur le schéma.
 
-Difficulté de l'exercice : définir le périmètre du technique et le périmètre fonctionnel. Ce type de document ne doit pas préciser le technique, c'est au prestataire de démontrer sa capacité à proposer un solution adéquate.
+Difficulté de l'exercice : définir le périmètre du technique et le périmètre fonctionnel. Ce type de document ne doit pas préciser le technique, c'est au prestataire de démontrer sa capacité à proposer une solution adéquate.
 
 Distinction entre front-end et back-end: si David veut bien se charger des requêtes SPARQL, il faudrait cibler un développeur centré front-end (design, interface utilisateur) mais il faudra aussi préciser l'interfaçage front-back, traduction par API. 
 Zoe se concentre donc sur le front end, les fonctionnalités de l'application.
@@ -108,15 +108,15 @@ Lena est aller voir le planificateur. Une approche visuelle qui permet de placer
 Circularité entre le visuel et les données → on pourrait considérer que ce sont deux vues sur le même objet. 
 Permettrait d'avoir un modèle 3D pérenne qui ne dépend pas des stratégies de représentation 3D qui sont techniquement situées.
 
-On va traiter des déployement d’expositions différents, voir ce qui se passe autour d'une œuvre. Ici le besoin de données important.
+On va traiter des déploiements d’expositions différentes, voir ce qui se passe autour d'une œuvre. Ici le besoin de données important.
 
-Traiter données liées d'une oeuvre (ex: sa place dans différentes exposition de collection). 
+Traiter données liées d'une oeuvre (ex: sa place dans différentes expositions de collection). 
 - produire une vue juste de l'environnement de l'œuvre
 Le mettre comme option, permet de faire comprendre le projet au développeur
 
 On n'est pas obligés de faire des reconstitutions complètes. Enjeux de la variabilité des niveaux de précisions. Si on arrive à traiter en même temps l’information très précise ou peu précise.
 
-La prestation de service doit répondre à cet enjeu: doit proposer une solution à la problématique de précision. C’est une question fonctionnelle qui peut être adressée dans le cahier des charges.
+La prestation de service doit répondre à cet enjeu : doit proposer une solution à la problématique de précision. C’est une question fonctionnelle qui peut être adressée dans le cahier des charges.
 Décliner les sous enjeux en laissant ouvert. 
 
 Comment l'interface prend en compte les inférences produites en backend?
@@ -125,7 +125,7 @@ Fonctionnalité autour de l'inférence et du raisonnement (ex: un objet n'est qu
 
 Ratio vs dim. 
 
-Comment du passe en arriere plan de la boite de visualisation à la base de données. Si on essaye de documenter une exposition soit dans Kitchen Planner soit dans SweetHome 3D, voir comment faire pour avoir les bonnes inférences.
+Comment du passe en arrière plan de la boite de visualisation à la base de données. Si on essaye de documenter une exposition soit dans Kitchen Planner soit dans SweetHome 3D, voir comment faire pour avoir les bonnes inférences.
 => paramètre gerable dans l'appli pour avoir statut sur les objets. 
 
 Lister outils mais dev doit nous faire une proposition : 

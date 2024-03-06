@@ -8,7 +8,7 @@ date: 2022-01-05
 
 Hend Ben Salah, Lisa Bouraly, Emmanuel Château-Dutier et Lena Krause
 
-Choix du logiciel: employé dans le quotidien et comme journal de recherche. A considéré utiliser Access ou Excel mais souhaitait avoir l’information sur les expositions, les acteurs d’expositions, les dates, lieux et pays, mais voulait pouvoir faire des liens entre les entités. Un aspect relationnel qui rendait difficile de traiter les informations dans un seul tableau. Or, cela était possible sur Notion.
+Choix du logiciel : employé dans le quotidien et comme journal de recherche. A considéré utiliser Access ou Excel mais souhaitait avoir l’information sur les expositions, les acteurs d’expositions, les dates, lieux et pays, mais voulait pouvoir faire des liens entre les entités. Un aspect relationnel qui rendait difficile de traiter les informations dans un seul tableau. Or, cela était possible sur Notion.
 [Notion](https://www.notion.so)
 
 Nom de l'expo, année, commissaire, institution, type d'institution, liste d'artistes, URL, pays de l'institution, type d'exposition. Possibilité de prendre des notes pour chaque entrée.
@@ -42,7 +42,7 @@ Licence gratuite pour le moment, mais devient payant pour travailler en équipe 
 
 Il y a aussi une API. À tester.
 
-Possibilité de faire un formulaire pour entrer les données? Hend pense que non, mais ce serait à vérifier:
+Possibilité de faire un formulaire pour entrer les données ? Hend pense que non, mais ce serait à vérifier:
 - tester travail hors ligne et merge si travail en équipe
 - liens dans la table 
 - voir quels sont les fonctionnalités de l'API

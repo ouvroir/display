@@ -17,7 +17,7 @@ Besoins qui ressortent des premières réunions:
 
 Anticipation des besoins de numérisation et organisation des archives numérisées
 
-Mandats du labo: 
+Mandats du labo : 
 - common: partage de documents et fonds numérisés 
 - expots: travail plus spéclialisé mais doit pouvoir être lié
 

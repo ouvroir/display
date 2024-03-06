@@ -88,10 +88,10 @@ Il y a une ambiguïté sur le fait d’avoir une notion d’échelle relative. P
 
 Intéressant de pouvoir utiliser les inférences comme des retours visuels.
 
-Est-il possible de nommer des inférences selon l'ontologie si on les place spatialement? 
-Exemple: on a affirmé que l'œuvre A est à côté de l'œuvre B. Si je déplace l'œuvre A dans une autre salle, l'œuvre B va suivre?
+Est-il possible de nommer des inférences selon l'ontologie si on les place spatialement ? 
+Exemple: on a affirmé que l'œuvre A est à côté de l'œuvre B. Si je déplace l'œuvre A dans une autre salle, l'œuvre B va suivre ?
 
-Comment renseigner les espaces ? Avoir l’aternative de donner des informations métriques ou de simples rectangles. Distinguer visuellement les informations en fonction de leur échelle. Il est important de pouvoir renseigner la connectivité des espaces. 
+Comment renseigner les espaces ? Avoir l’alternative de donner des informations métriques ou de simples rectangles. Distinguer visuellement les informations en fonction de leur échelle. Il est important de pouvoir renseigner la connectivité des espaces. 
 
 exemple William : Notion (interface uniforme, fonctionnelle, penser les continuités entre les interfaces)
 
@@ -99,10 +99,10 @@ Besoin de pouvoir faire des A/R entre des vues différentes:
 - module de saisie
 - module de visualisation
 
-Avoir des points de vues différents :
-- vue par liste: toutes les œuvres, toutes les salles, toutes les sources
-- vue par element: toutes les assertions liées à l'œuvre X
-- vue d'ensemble: visualisation de salle
+Avoir des points de vue différents :
+- vue par liste : toutes les œuvres, toutes les salles, toutes les sources
+- vue par elemen t: toutes les assertions liées à l'œuvre X
+- vue d'ensemble : visualisation de salle
 
 Plusieurs niveau d'échelle. 
 
@@ -262,7 +262,7 @@ Générer URI lors de la saisie des données.
 Travailler avec données sémantiques faisables, enjeux techniques. 
 
 Par où commencer? 
-1ere partie : faire des formulaire pour assoir application sur des bases
+1ere partie : faire des formulaires pour asseoir application sur des bases
 2eme partie : la saisie en visualisation. 
 
 Mini cahier des charges pour faire un petit essai. William en dev, David en production de données ? 

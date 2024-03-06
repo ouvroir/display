@@ -56,7 +56,7 @@ Systématique
 
 Liste des expositions du musée qui est l’outil de travail. Chaque exposition renvoyant à un dossier.
 
-Exemple Dider: premier grand redéploiements, pour les 50 ans d'exposition, a pour titre *500 œuvres choisies*. Requiert de passer, par un inventaire systématique et pragmatique, au travers de l'ensemble des expositions et d'identifier les expositions qui sont des redéploiements
+Exemple Didier: premier grand redéploiements, pour les 50 ans d'exposition, a pour titre *500 œuvres choisies*. Requiert de passer, par un inventaire systématique et pragmatique, au travers de l'ensemble des expositions et d'identifier les expositions qui sont des redéploiements
 Dider a besoin de se constituer son propre document, d'où le retour au dossier d'archive
 
 Exemple Marilie: liste des expositions du MAC des années 1992 à aujourd'hui, à partir d'abord de expositions passées sur le [site](https://macm.org/expositions/passees/)
@@ -87,7 +87,7 @@ Liste des expositions brute:
 - date
 - cote dossier papier
 
-Mimsy: premier outil de travail pour savoir si les expositions sont pertinentes, serait un premier nettoyage? Aller dans le dossier papier pour compléter les manques dans Mimsy? Conciliation de l'instrument de recherche qui décrit les fonds 
+Mimsy: premier outil de travail pour savoir si les expositions sont pertinentes, serait un premier nettoyage ? Aller dans le dossier papier pour compléter les manques dans Mimsy? Conciliation de l'instrument de recherche qui décrit les fonds 
 Partir d'une liste si elle existe, l'importer, ajouter les cotes, descendre pour aller travailler et remplir les autres champs (= complément)
 
 MAC et MNBAQ: important de garder le lien avec le système d'information

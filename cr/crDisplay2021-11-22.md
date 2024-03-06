@@ -173,7 +173,7 @@ Lundi 16h, pas à mi-décembre le 13 décembre
 ## Questions
 Quid des sources.
 Comment la fiche Pompidou était-elle renseignée ? <!--Fiche détaillée dans expots--> oui mais comment informatique, manuel ? bonne question, c'est un document word à l'heure actuelle
-Nombre d’exposition concernée
+Nombre d’expositions concernées
 Quid reprise de données
 Quid des modalités de saisie
 Traitement des sources

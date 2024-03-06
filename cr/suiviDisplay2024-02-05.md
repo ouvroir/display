@@ -9,6 +9,14 @@ tags:
 
 ---
 
+## 2024-02-28
+WD, ECD, LK, DV, ZR
+
+- Établissement des 3 personae
+- discussion modèle de saisie de données
+- discussion articulation modèle de données avec l’app
+
+
 ## 2024-01-17
 WD, ECD, ZR
 
@@ -215,19 +223,217 @@ Test de modélisation avec Protégé
 
 
 ## 2023-08-03
+ECD, LK, DV
 
+Discussion autour :
+- de l’état de l’art
+- de l’expérimentation de modélisation
+- suite envisagée :
+Implémenter un modèle pour voir ce que ça fait et le soumettre à la critique ?
+Ou continuer le travail de modélisation? 
 
+Relation entre expot et surface: retravailler / raffiner avant de mettre à l'épreuve
+
+Implémentation simple: petite ontologie avec [Protégé](https://protege.stanford.edu) et la visualiser avec [WebVowl](http://vowl.visualdataweb.org/webvowl.html)
+
+choisir une exposition, il faut structurer quelque chose avec pour le tester
+soit un formulaire, soit on cible des cas de figure qu'on implémente nous et qu'on code à la main
+
+Comment rendre le prototype visible pour en discuter ?
+
+Test de formulaire, quelque chose à traiter dans une étape plus avancée.
+
+Comment montrer les biais ou les raccourcis ontologiques de ce petit modèle.
+et les anticiper?
+
+Comment en faire une preuve de concept pour pouvoir se faire les dents dessus? 
 
 ## 2023-07-18
+ECD, LK, DV
 
+ Présentation du projet :
+pas de réel modèle de documentation des expositions
+existant: CIDOC-CRM
+
+dispositif spatial/topologique, pas sûr si c'est compatible avec CIDOC. Fait défaut dans le monde muséal
+
+revue de littérature (partager le [lien Zotero](https://www.zotero.org/groups/2480242/ouvroir/collections/ASCZR3EC))
+années 90 : prototype basé sur XML.
+[linkedart](https://linked.art/): pattern pour CIDOC CRM (json-ld)
+
+Périmètre du travail - été 2023 : 
+
+- compléter la revue de littérature (~12-15h)
+- regarder ce qui se fait en archéologie avec CIDOC pour la stratigraphie
+- voir ce qui se fait côté topologie (quelles ontologies? géo, spatial): recherches d'un cadre 
+- initier un prototype de modélisation pour comprendre les difficultés liées à l'établissement d'un modèle documentaire
+
+A faire : 
+- chercher une exposition sur le macRepertoire qui est bien documentée et où il y a accès à plusieurs documents source
+- partir d'une vue d'exposition bien connue, dont les tableaux sont bien identifiés
+- partir du contemporain, faire une vue à 360 et travailler avec ça? voir s'il y a des visites virtuelles d'une salle (MNBAQ) disponible en ce moment
+
+Revue de littérature : 
+
+- grandes conférences sur le web sémantiques
+- semantic web journal
+- routledge: grande séries de volumes, cultural heritage...
+- archéo: CAA Computer application in archeology, ex cas anglais de stratigraphie avec cidoc-crm (heritage trust)
+- rechercher extension CIDOC archaeo et bibliographie associée au site
+- [building topology ontology](https://w3c-lbd-cg.github.io/bot/)
+
+  
 ## 2022-03-24
+Marie-Eve Beaupré, Marianne Longtin, Marie Fraser, Marilie Labonté, ECD, LK
 
+ Rencontre MAC
+
+### Présentation du contexte : 
+
+Histoire de l'exposition des collections avec 2 partenaires institutionnels : MAC et MBAM
+- faire des listes des expositions
+- nomenclature pour classifier et identifier des cas 
+
+Est-ce que les démarches de recherche avec le MBAM sont déjà entamées ou sont-elles à venir ? 
+Recherches déjà entamées avec Alexandra, qui voulait travailler sur l'histoire des collections du MBAC mais les musées étaient fermés, et elle s'est tournée vers un musée montréalais. 
+
+Pour bien arrimer les recherches, afin que les résultats des démarches installent des points de comparaison : dans le programme du stage, mention d'une étude d'histoire de pratiques expographiques et procédés discursifs. 
+
+### Répertoire MAC 
+est une sorte de "pellicule", un espace de traduction visuelle de Mimsy
+http://repertoires.macm.org/ 
+
+### Besoins Axe 1
+
+Marie besoin d’une vision générale de la collection.
+Générer la liste de toutes les collections pour avoir une vision générale du nombre d’expositions, etc. À partir de cette liste possible isoler expositions de collections pour faire un travail plus dans le détail.
+
+Avoir un portrait général des expositions et des expositions de collections, puis va aller cibler des cas exemplaires qui nous permettront d’explorer les choses plus en détail sur des questions, des formats, des dispositifs, des cas exemplaires, etc.
+
+Expositions de type "Points de vue sur la collection".
+
+1. produire (beaucoup) de données de recherches
+2. objectifs concrets avec hypothèses de recherches à tester
+
+Former une liste des questions clés à adresser à Mimsy? 
+- dégager des axes discursifs
+- analyser l'iconographie et la mise en espace des œuvres
+- toujours garder dans les documents & tableaux les identifiants des œuvres et des expositions
+
+reconstitution d'une exposition → basculer le point de vue, où l'œuvre a été 
+gardons à l'esprit que les artistes et leurs œuvres doivent demeurer le cœur de la perspective (plutôt que la vie du musée, qui serait limite narcissique)
+
+### Suivi
+
+- quand la nomenclature sera terminée
+    - exporter la liste de toutes les expositions
+    - conserver les possibilités de nourrir leur base par les résultats de recherche scientifique = résonance
+- terrain d'expérimentation pour la liste des œuvres dans les expositions
+- quand on sera rendu à l'année sur les circulations, clairement on va investiguer les trajectoires des œuvres
+
+- demander le contact d'Etienne (API avec client ou exports? )
+    - employé contractuel du musée pour le MAC répertoire
+    - requiert une demande un prêt de service de personnel
+- faire une liste par points des questions et des besoins (à court et à moyen terme) auxquels il faut répondre → créer un document partagé 
+    - commencer plutôt par un export mimsy car le développeur est mobilisé par la livraison du produit
+    - bien faire circuler l'information par rapport à la recherche
+    - bien expliquer les motifs pour l'export des données
+    - circonscrire l'utilisation/éthique etc.
+
+- il faudra, à terme, valider la politique institutionnelle en ce qui concerne la publication en lien avec leurs données? 
+
+- demande d'organigramme mis à jour 
+
+Rencontres
+- Andréa (cheffe)
+    - Etienne, responsable de la maison, structure 
+    - Béatrice informatise/normalise les données produites par les chercheurs
+    - Cindy 
+- Équipe de gestion des collections: Alexandra
+- 
 ## 2022-02-17
+ECD, LK, Alexandra ?
+
+Rencontre Axe 1
+
+Tableur
+
+### Suivi
+Avec Alexandra
+- Extraire les données des trois listes originales en tableur
+- Tableau exposition de collection (liste d'Alexandra)
+- Ajouter champs "exposition de collection" (oui/non associé à une couleur)
+
+Identifier et partager un tutoriel pour les règles de bases / bonnes pratiques en tableur
+Envisager un atelier sur l'extraction et le nettoyage de données
+
+Avec Emmanuel : soigner les colonnes / fichier
+Ajouter la possibilité de multiplier les tags
+
+Prochaine étape : négociation avec les archivistes pour l'obtention des expositions permanentes
+
+## 2022-01-05
+Hend Ben Salah, Lisa Bouraly, Emmanuel Château-Dutier et Lena Krause
+
+rencontre Hend Ben Salah
+
+Choix du logiciel : employé dans le quotidien et comme journal de recherche. A considéré utiliser Access ou Excel mais souhaitait avoir l’information sur les expositions, les acteurs d’expositions, les dates, lieux et pays, mais voulait pouvoir faire des liens entre les entités. Un aspect relationnel qui rendait difficile de traiter les informations dans un seul tableau. Or, cela était possible sur Notion.
+[Notion](https://www.notion.so)
+Autres options:
+- [Obsidian](https://obsidian.md/)
+- Méthode Zettelkasten 
 
 ## 2021-12-21
+Lisa Bouraly, ECD, LK ?
+
+Présentation travail de Lisa
 
 ## 2021-12-08
+Marie Fraser, Marilie Labonté, Alexandra Dumarais, Hend Ben Salah, Didier Prioul,  Emmanuel Château-Dutier, Kristine Tanton, Lena Krause
+
+Calendrier
+- Fin janvier, accès à l'ensemble de la documentation du MAC 
+- avoir un premier outil disponible pour commencer le travail fin janvier (fichier tabulaire avec explications sur comment renseigner les champs)
+- définition d'un modèle documentaire
+- travail d'Alexandra: est-ce qu'on adapte le "formulaire"? 
+- MAC intéressé à faire une publication pour 2025 (réouverture du musée)
+
+
+Périmètre à définir: 
+- trouver des moyens de réutiliser le travail de documentation effectué par les musées
+- ambiguité entre reconstituer l'archive vs produire une documentation
+
+Est-ce qu'un des produits finaux de la recherche serait une publication du type *Biennials and Beyond*? 
+
+Principales étapes de la recherche
+1. Repérage chronologique, recherche systématique (travail de dépouillement des auxiliaires). De quoi cette histoire de l'exposition des collections se compose-t-elle? 
+2. Identification d'expositions particulières (repérage des co-chercheur·se·s), cas exemplaires, sachant que l'exemplarité peut varier à travers le temps
+3. Analyse à différents niveaux: analyse tridimensionnelle d'accrochages d'une salle / d'un contexte, analyse temporelle d'une œuvre (dispositif plus centré sur la narratologie)
+
+
+• Quel(s) est (sont) le(s) meilleur(s) outil(s) (logiciel, etc.) à favoriser pour faciliter un transfert éventuel de données ?
+• À partir des modèles qui constituent nos bases conceptuelles (fiches de Didier Prioul et de Pompidou), quelles sont les informations que nous souhaitons collecter sur les expositions (matériel muséographique, éducatif, scientifique, communicationnel, etc.) ? Ceci permettra de faciliter la construction du modèle type pour l’axe 1.
+
+Systématique
+- mandats
+- musées
+- partenaires
+- dates
+
+Suivi 
+
+- demander ce dont dispose chaque musée: prévoir des rencontres avec Marie-Eve (MAC) et Nathalie Thibault (MBAM)? 
+- rencontre avec Hend pour voir son travail 
+- Marilie met ses documents sur le Drive
+- création d'un document martyr à travailler principalement de façon asynchrone, bien expliquer comment renseigner les champs
+- réunion pour finaliser à la rentrée (janvier)
+- au cours du semestre: comment peut-on passer du dépouillement systématique mais commencer à réfléchir l'analytique, les approches transversales possibles
+
+  Se permettre de gérer les formulaires de façon modulaire, Omeka-S permet de faire évoluer les champs au fur et à mesure, Strapi aussi. 
+Evaluer BD-oracle et [docuverse](https://docuverse.io) car [utilisé](http://www.sis.pitt.edu/spring/mlnds/mlnds/node2.html) par plusieurs personnes? [DSpace](http://e-chastel.huma-num.fr/)
 
 ## 2021-11-22
+ Marie Fraser, Marilie Labonté, Alexandra Dumarais, Hend Ben Salah, Didier Prioul, Emmanuel Château-Dutier, Kristine Tanton, Lena Krause
+  
+Définir une manière de **colliger les informations retrouvées dans les archives lorsque l’on fait de la recherche sur les expositions de collections**. Ces expositions sont probablement fort moins documentées que les expositions temporaires, ne serait-ce que par la documentation photographique conservée.
 
-## 2021-01-05

@@ -25,12 +25,12 @@ Liste complète (volonté de se concentre sur après la seconde guerre mondiale)
 - [Liste des redéploiements] à venir
 
 Travail préalable à faire dans la liste
-Identifier quelles sont les expositions de collections? Déjà fait
+Identifier quelles sont les expositions de collections ? Déjà fait
 
 Liste préliminaire par Alexandra, il reste des informations à vérifier
 Il aurait été intéressant d'avoir un portrait statistique des expositions (celles qui présentent un aspect lié à la collection ou non)
 
-Séance de transformtion de documents semi-structurés en un tableau structuré
+Séance de transformation de documents semi-structurés en un tableau structuré
 
 Emplacement: 
 - même exposition qui voyage
@@ -58,7 +58,7 @@ Vues souhaitées
 ## Suivi
 Avec Alexandra
 - Extraire les données des trois listes originales en tableur
-- Tableau expositon de collection (liste d'Alexandra)
+- Tableau exposition de collection (liste d'Alexandra)
 - Ajouter champs "exposition de collection" (oui/non associé à une couleur)
 
 Identifier et partager un tutoriel pour les règles de bases / bonnes pratiques en tableur

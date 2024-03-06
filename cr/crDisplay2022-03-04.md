@@ -19,11 +19,11 @@ Marie Fraser
 Marilie Labonté
 
 ## Présentation du contexte
-Histoire de l'exposition des collection avec 2 partenaires institutionnels: MAC et MBAM
+Histoire de l'exposition des collections avec 2 partenaires institutionnels : MAC et MBAM
 - faire des listes des expositions
 - nomenclature pour classifier et identifier des cas 
 
-Est-ce que les démarches de recherche avec le MBAM sont déjà entamées ou sont-elles à venir? 
+Est-ce que les démarches de recherche avec le MBAM sont déjà entamées ou sont-elles à venir ? 
 Recherches déjà entamées avec Alexandra, qui voulait travailler sur l'histoire des collections du MBAC mais les musées étaient fermés, et elle s'est tournée vers un musée montréalais. 
 
 Pour bien arrimer les recherches, afin que les résultats des démarches installent des points de comparaison: dans le programme du stage, mention d'une étude d'histoire de pratiques expographiques et procédés discursifs. Oui ça correspond bien. 
@@ -40,30 +40,30 @@ travail de documentation numérique du MAC
 
 ## Modalités de collaborations
 
-Encore une période avec une petite équipe confrontée à de grands défis. Conservatrice des collections mais pas gestionnaire ni cheffe du numérique. Sert de courroie de transmission afin de s’assurer de la bonne raisonnance du projet.
+Encore une période avec une petite équipe confrontée à de grands défis. Conservatrice des collections mais pas gestionnaire ni cheffe du numérique. Sert de courroie de transmission afin de s’assurer de la bonne résonance du projet.
 
-Souhaitait faire un état d’où en était. Mais aussi idée de raisonnance, lien entre votre équipe et la nôtre car aussi amenée à construire des programmes de commissariat en ligne à partir des travaux que réalise sur l’accessibilité des collections en ligne.
+Souhaitait faire un état d’où en était. Mais aussi idée de résonance, lien entre votre équipe et la nôtre car aussi amenée à construire des programmes de commissariat en ligne à partir des travaux que réalise sur l’accessibilité des collections en ligne.
 
-Grand nombre de musées qui travaillent avec Mimsy, une chance même si old school, permet de disposer du détail de l’ensemble des informations colligées au musées. Plan culturel numérique du québec.
+Grand nombre de musées qui travaillent avec Mimsy, une chance même si old school, permet de disposer du détail de l’ensemble des informations colligées au musée. Plan culturel numérique du québec.
 
 
 ### Où en êtes-vous dans la plateforme? Le MAC répertoire
 basée sur la structure de Mimsy telle que développé dans les années 90
-Dans les années 90, les chercheurs ne posaient pas la question de la même manière qu’aujourd’hui. Tout un travail d’ajout de champs qui est fondamental pour nous. Actuellement doivent manuellement, fiche par fiche, créer des statistiques. Personnellement comme conservatrice qui questionne les données, trouvera le moyen d’enrichir les bdd et le faire en raisonnance.
+Dans les années 90, les chercheurs ne posaient pas la question de la même manière qu’aujourd’hui. Tout un travail d’ajout de champs qui est fondamental pour nous. Actuellement doivent manuellement, fiche par fiche, créer des statistiques. Personnellement comme conservatrice qui questionne les données, trouvera le moyen d’enrichir les bdd et le faire en résonnance.
 
-Trouver ensemble le bon moment pour voir comment enrichir les champs de la base, comment "bien" le faire, en résonnace avec d'autres musées pour adresser ces enjeux communément
+Trouver ensemble le bon moment pour voir comment enrichir les champs de la base, comment "bien" le faire, en résonnance avec d'autres musées pour adresser ces enjeux communément
 Voit votre groupe de recherche comme un catalyseur de ces questions
 
-Pour le momment part d’un Mimsy.
+Pour le moment part d’un Mimsy.
 - Champs ne sont pas les mêmes dans les musées différents (exemple: catégorie, nom de l'objet)
 - travail de mot-clés et champs descriptifs: travail approfondi dans des champs différents selon chaque musée
 
-Seulement 8202 fiches d’œuvres auxquelles il faut ajouter l’indexation des exposition temporaires pour les œuvres qui ont un n° d’accession
+Seulement 8202 fiches d’œuvres auxquelles il faut ajouter l’indexation des expositions temporaires pour les œuvres qui ont un n° d’accession
 
 Catégories et nom d’objet, dates et matériaux.
 Champs descriptifs très peu utilisés (plus les acquisitions sont récentes)
 
-http://repertoires.macm.org/ → fonctionne seulement en interne? (oui pour le moment), réalisation en 2020
+http://repertoires.macm.org/ → fonctionne seulement en interne ? (oui pour le moment), réalisation en 2020
 
 Ensemble de champs traduits dans MAC répertoires, une vue qui remet en forme les champs descriptifs de Mimsy. Etienne travailleur autonome qui travail pour le musée sur cette structure de pont entre le Mimsy et ce client web.
 
@@ -79,7 +79,7 @@ Structuration
 - publications (publications du musée et autres faisant mention des œuvres)
     - publications du musée numérisées en pdf
 
-collection d’œuvres d’art vs collection documentaire du musée (Cindy). Pour le moment expositions et œuvres d’art. Type d’ouvre, date de production.
+collection d’œuvres d’art vs collection documentaire du musée (Cindy). Pour le moment expositions et œuvres d’art. Type d’œuvre, date de production.
 
 Répertoire se concentre principalement sur les œuvres de la collection du musée et sur les expositions du musée. Si logo à droite → œuvre de la collection, sans logo → œuvre qui a été en prêt, exposée mais qui n'appartient pas au musée. À ce jour, il n'y a pas des images pour tout, données encore incomplètes, mais assez avancé comme travail.
 
@@ -153,7 +153,7 @@ Nouvel espace de consultation des dossiers pour les chercheur·se·s sera à pla
 Marie besoin d’une vision générale de la collection.
 Générer la liste de toutes les collections pour avoir une vision générale du nombre d’expositions, etc. À partir de cette liste possible isoler expositions de collections pour faire un travail plus dans le détail.
 
-Avoir un portrait général des expositions et des expositions de collections, puis va aller cibler des cas exemplaires qui nous permettront d’explorer les choses plus en détail sur des questions, des formats, des dipositifs, des cas exemplaires, etc.
+Avoir un portrait général des expositions et des expositions de collections, puis va aller cibler des cas exemplaires qui nous permettront d’explorer les choses plus en détail sur des questions, des formats, des dispositifs, des cas exemplaires, etc.
 
 Expositions de type "Points de vue sur la collection".
 
@@ -161,16 +161,16 @@ Expositions de type "Points de vue sur la collection".
 2. objectifs concrets avec hypothèses de recherches à tester
 
 Former une liste des questions clés à adresser à Mimsy? 
-- dégager des axes discursif
+- dégager des axes discursifs
 - analyser l'iconographie et la mise en espace des œuvres
-- toujours garder dans les documents&tableaux les identifiants des œuvres et des expositions 
+- toujours garder dans les documents & tableaux les identifiants des œuvres et des expositions 
 
 
 Questions de recherche
-- quels sont les nouveaux usages des collections?
-- à quoi servent les collections?
+- quels sont les nouveaux usages des collections ?
+- à quoi servent les collections ?
     - prêts (quasi-moratoire des prêts ces temps-ci) 200-250 demandes de prêts par année au musée → acquisition d'une œuvre pour continuer à la faire rayonner
-- œuvre qui a été le plus exposée, celle qui a fait les plus grands voyages: son histoire, sa vie, sa circulation (grands partenaires du musée dans la circlation/prêts des œuvres), quelle œuvre reste dans les réserves (n'a jamais été exposée, et ceci contribue à la constitution du mythe) <!-- approche très quanti-->
+- œuvre qui a été le plus exposée, celle qui a fait les plus grands voyages : son histoire, sa vie, sa circulation (grands partenaires du musée dans la circlation/prêts des œuvres), quelle œuvre reste dans les réserves (n'a jamais été exposée, et ceci contribue à la constitution du mythe) <!-- approche très quanti-->
 - ce que peuvent nous "révéler" les collections <!--les données disponibles sur les collections -->
 
 reconstitution d'une exposition → basculer le point de vue, où l'œuvre a été 
@@ -186,18 +186,18 @@ inauguration du nouveau musée & ouverture de la collection
 
 cas concret qui peut guider le travail 
 publication qui pourrait avoir une extension numérique
-ne sera pas une catalogue raisonné
+ne sera pas un catalogue raisonné
 
-Contenus?
+Contenus ?
 - statistiques comme l'œuvre la plus exposée = vie des œuvres
 
 ## Suivi
 
 - quand la nomenclature sera terminée
     - exporter la liste de toutes les expositions
-    - conserver les possibilités de nourrir leur base par les résultats de recherche scientifique = résonnance
+    - conserver les possibilités de nourrir leur base par les résultats de recherche scientifique = résonance
 - terrain d'expérimentation pour la liste des œuvres dans les expositions
-- quand on sera rendu à l'année sur les circulation, clairement on va investiguer les trajectoires des œuvres
+- quand on sera rendu à l'année sur les circulations, clairement on va investiguer les trajectoires des œuvres
 
 - demander le contact d'Etienne (API avec client ou exports? )
     - employé contractuel du musée pour le MAC répertoire
