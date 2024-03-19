@@ -21,7 +21,7 @@ version accrochage 2
 Lieu 2 : Moscou
 version accrochage 3
 
-Reflexions : 
+Réflexions : 
 Est-ce qu’on intègre la lumière au display? Les assises? 
 Ajouter estrade? 
 ex : la fête de Marisol. 
@@ -72,7 +72,7 @@ Sparnaturel
 
 On procède à un état des lieux du document, Zoe a de la difficulté à définir ce qu'on demande d'un point de vue technique, voudrait savoir à qui s'adresse le CDC, à quel type de développeur.
 
-Le fait de pouvoir écrire les objectifs en liste à puces a beaucoup aidé pour avancé. Avoir un retour sur le contenu écrit. Pour les fonctionnalités pas écrit encore. Travailler sur le schéma.
+Le fait de pouvoir écrire les objectifs en liste à puces a beaucoup aidé pour avancer. Avoir un retour sur le contenu écrit. Pour les fonctionnalités pas écrit encore. Travailler sur le schéma.
 
 Difficulté de l'exercice : définir le périmètre du technique et le périmètre fonctionnel. Ce type de document ne doit pas préciser le technique, c'est au prestataire de démontrer sa capacité à proposer une solution adéquate.
 
@@ -152,7 +152,7 @@ définitions/vocabulaire
 
 Aller de l'avant sur la question des rapports entre la visualisation et les données, décliné sur les personas, pour aller plus loin dans la description fonctionnelle. Répondre aux objectifs scientifiques tout en restant générique.
 
-Question de comment gérer l'information? effort de traduction comptabile avec JSON. Ex: LinkedArt implémente CIDOC-CRM en JSON. Demander à David d'implémenter l'ontologie en JSON-LD. Du point de vue du dev, ce serait juste le JSON-LD avec propriétés et relations.
+Question de comment gérer l'information? effort de traduction compatible avec JSON. Ex: LinkedArt implémente CIDOC-CRM en JSON. Demander à David d'implémenter l'ontologie en JSON-LD. Du point de vue du dev, ce serait juste le JSON-LD avec propriétés et relations.
 Base de données documents, indexation des entrées permet de parcourir les fichiers (ex: CouchDB)
 
 Attention, il n’est peut être pas possible de réaliser des inférences avec un stockage des données en JSONLD. Il faut ingérer le fichier pour avoir les inférences.

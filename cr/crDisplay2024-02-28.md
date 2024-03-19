@@ -101,10 +101,10 @@ Besoin de pouvoir faire des A/R entre des vues différentes:
 
 Avoir des points de vue différents :
 - vue par liste : toutes les œuvres, toutes les salles, toutes les sources
-- vue par elemen t: toutes les assertions liées à l'œuvre X
+- vue par element: toutes les assertions liées à l'œuvre X
 - vue d'ensemble : visualisation de salle
 
-Plusieurs niveau d'échelle. 
+Plusieurs niveaux d'échelle. 
 
 Module Espaces inspiré par SCRATCH? 
 
@@ -138,7 +138,7 @@ Sans doute pas au prestataire de représenter le modèle de données. Définir l
 
 Definisson l’api, la specifier et donner au dev le modèle de saisie. 
 
-Bien sûr, important de penser des systemes dynamiques pour générer directement les inférences.
+Bien sûr, important de penser des systèmes dynamiques pour générer directement les inférences.
 
 Emmanuel : 
 Problème de l'api : laquelle on crée pour pouvoir être fonctionnelle avec la 3D? 
