@@ -1,7 +1,7 @@
 ---
 title : Notes rdv Display
 author: ouvroir
-date: 2023-03-13
+date: 2024-03-13
 draft: false
 tags:
     - display
