@@ -83,9 +83,9 @@ L’alignement ontologique est conçu de manière à permettre à la fois l'appl
 - spécialisation de `bot:Space` par une sous-classe `display:ExhibitionSpace`
 - spécialisation de `bot:hasSpace` par une sous-propriété `display:hasExhibitionSpace`
 - spécialisation mutuelle des éléments du bâtiment selon BOT et des éléments du bâtiment selon Display (l'un hérite des propriétés topologiquies de l'autre et vice versa) : [voir note rur la relation entre bot:Element et display:Exhibit](#sur-la-relation-entre-botelement-et-displayexhibit)
-- spécialisation de `bot:Interface` pour spécifier les propriétés des relations non topologiques entre des espaces ou entre des espaces ou des éléments
+- spécialisation de `bot:Interface` pour spécifier les propriétés des relations non topologiques entre des espaces ou entre des espaces ou des éléments    
 
-L’ontologie utilise des proprités de haut niveau, suivant un patron semblable à celui de BOT pour définir les relations topologiques des éléments du bâtiment. Ces propriétés sont donc définies au niveau de l'expôt à partir de super-propriétés (`display:hasTopologicalRelationWith`) permettant l'organisation hiérarchique des relations topologiques. Les divers types d'expôts (sous-classes) héritent intégralement de cette hiérarchie.
+L’ontologie utilise des proprités de haut niveau, suivant un patron semblable à celui de BOT (parallèle à BOT) pour définir les relations topologiques des éléments du bâtiment. Ces propriétés sont donc définies au niveau de l'expôt à partir de super-propriétés (`display:hasTopologicalRelationWith`) permettant l'organisation hiérarchique des relations topologiques. Les divers types d'expôts (sous-classes) héritent intégralement de cette hiérarchie.
 
 Les expôts peuvent être mis en relation avec un espace abstrait soit par la propriété `display:hasExhibit` s'ils sont des expôts, soit par la propriété `bot:hasElement` s'ils sont des éléments du bâtiment (éléments qui permettent la construction de l'espace ou qui remplissent une fonction technique dans l'exposition). Note : éléments du bâtiment, qu'ils soient définis par `bot:Element` ou `display:Element`, sont toujours des expôts.
 
@@ -95,7 +95,7 @@ Les expôts peuvent être mis en relation avec un espace abstrait soit par la pr
 
 Solution simple et intuitive, mais sémantiquement incohérente : `display:Exhibit subClassOf bot:Element`.
 
-La définition de `bot:Element` n'est pas applicable à `display:Exhibit` (incompatibilité sémantique) en raison de la notion de « construction entity » :
+En effet, la définition de `bot:Element` n'est pas applicable à `display:Exhibit` (incompatibilité sémantique) en raison de la notion de « construction entity » :
 
 > Element - Constituent of a construction entity with a characteristic technical function, form or position [[ISO-12006], 3.4.7].
 
@@ -120,13 +120,13 @@ Note : nous aurions pu simplement déclarer `display:Exhibit` comme sous-classe 
 
 Patron pour modifier comportement de la classe, voir ce qui est pratiqué par CIDOC. Emmanuel a introduit (DOPHEDA)[https://chin-rcip.github.io/collections-model/fr/a-propos]
 
-Support et devices sont devenus des sous-classes de Element/BuldingElement. 
+Support et devices sont devenus des sous-classes de Element/BuldingElement.
 
-Display devient une sous classe de Exhibit et includes exhibit. 
+Display devient une sous classe de Exhibit et includes exhibit.
 
 On enlève les artefacts et informativeInfo de l'ontologie laissant ainsi ces définitions à Cidoc. Branchement de Cidoc sur Exhibit.
 
-DisplayWall est une sous-classe de Wall mais devient Support quand est en relation avec un exhibit. 
+DisplayWall est une sous-classe de Wall mais devient Support quand est en relation avec un exhibit.
 
 Etrange de ne pas avoir d'ontologie sur la topologie. Ok, mais GeoSPARQL propose un ensemble de relations topologiques abstraites, dont RCC8.
 

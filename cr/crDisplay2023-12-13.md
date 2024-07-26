@@ -45,7 +45,7 @@ Vérifier le but.
 [cidoc](https://cidoc-crm.org/html/cidoc_crm_v7.1.1.html)
 
 pour décrire l'objet connexion par exhibit à : 
-- ~~E19 Physical Object (superclaff of E20 human made object et E22 biological object). (parce qu'on se connecte pas à l'immatériel)~~ 
+- ~~E19 Physical Object (superclass of E20 human made object et E22 biological object). (parce qu'on se connecte pas à l'immatériel)~~ 
 ou
 - E18 Physical Thing : on restreint aux objets physique donc pas d'immatériel
 ou 
@@ -76,12 +76,12 @@ Est-ce qu'on s'embarrasse d'une hiérarchie de classe dans élément. Il y a une
 
 Toutes les choses situées dans l'espace sont des E53 Place. Radical. Les colonnes sont des places. 
 
-CRMgeo (CRM et GeoSPARQL) pour utiliser geoparqle et crm juste pour place.
+CRMgeo (CRM et GeoSPARQL) pour utiliser geosparql et crm juste pour place.
 David ne pense pas qu'il est nécessaire de brancher GeoSPARQL. On utilise certains termes topologiques. Mais on en a plus. 
 
 Très semblable à notre affaire mais ont utilisé une autre stratégie. Le fond très semblable à ce qu'on fait. 
 
-Dans geosparql tout est un objet spatial. 
+Dans geosparql tout est un objet spatial.
 
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol086-cosit2017/LIPIcs.COSIT.2017.2/LIPIcs.COSIT.2017.2.pdf
 
@@ -122,7 +122,7 @@ Pour qui ? : communauté du web sémantique, muséale.
 
 Pas forcément l'interopérabilité pour l'instant
 Enjeux plutôt du côté de la relation entre objet sont des relations de graphes. 
-Technique : on fait du rdf et pas du property graphe. Parce que sinon pas d'ontologie. 
+Technique : on fait du rdf et pas du property graph. Parce que sinon pas d'ontologie. 
 Propriété owl nous intéresse parce que fait déjà bcp de choses rien qu'avec ce qu'on a. 
 Expressivité owl est mise à profit grâce aux chaines de propriété, restrictions pas forcément utile ici, mecanisme héritage et propriété c'est rdf. 
 Discuter dans l'état de l'art de la docu en xml et modèle hiérarchique. On aurait pu documenter en relationnel mais on peut pas faire d'interférence, on perd en sémantique et les rapports entre les classes. Plus flexible qu'un modèle relationnel. Permet de les lier avec autres ontologies muséales et architecturales. 
