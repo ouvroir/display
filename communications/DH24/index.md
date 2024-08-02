@@ -11,7 +11,7 @@
 }
 </style>
 
-# Documenter les accrochages d’exposition ou de collection muséales : une approche ontologique
+# Documenter les accrochages d’exposition ou de collection muséales&#0160;: une approche ontologique
 
 <!-- Documenting exhibition or museum collections hangings: an ontological approach -->
 
@@ -20,6 +20,9 @@
 19 janvier 2024
 
 <div style="display: flex">
+  <div class="flex-1">
+    <img src="./img/logo-ouvroir.svg">
+  </div>
   <div class="flex-1">
     <img src="./img/logo-ouvroir.svg">
   </div>
@@ -36,16 +39,16 @@
 
 ===vvvvvv===
 
-# Plan de la présentation
+## Table
 
 1. Le projet Display
 1. Approche ontologique de la topologie de l’exposition
 1. Étude de cas&#0160;: *Feux pâles*
 1. Entrepôt RDF et interface Web
 
-===vvvvvv===
+===>>>>>>===
 
-# Le projet Display
+## The *Display* Project
 
 - **Reconstitution** d’accrochages d’exposition ou de collection muséales
 - **Basée** sur de la documentation historique hétérogène et lacunaire
@@ -58,7 +61,19 @@
 
 ===vvvvvv===
 
-# Modèle de documentation des accrochages
+## Spatial View on the Exhibition
+
+foo bar
+
+===vvvvvv===
+
+## 3D for Historical Reconstruction
+
+foo bar
+
+===vvvvvv===
+
+## Modèle de documentation des accrochages
 
 - Modèle de documentation :
     - pérennisation et interopérabilité des données sur les expositions
@@ -73,12 +88,28 @@
 - et qui vient permettre la description formelle des expositions dans une perspective particulière, qui est celle des relations topologiques des objets dans l'espace de l'exposition.
 - que l'on peut visualiser ainsi.
 
-# varia
+**varia**
 
 la formulation des hypothèses et la génération de reconstitutions, éventuellemetn de faire usage des données dans les reconstitutions, mais aussi dans n'imoprte quel projet
 
 - idée de la disposition spatiale des objets, dans une exposition, à l’aide d’un modèle documentaire qui permet la description des relations topologiques abstraites entre les objets
-- Pourquoi abstraite? Documentation lacunaire, qui est loin de tout nous révèler sur les expositions, 
+- Pourquoi abstraite? Documentation lacunaire, qui est loin de tout nous révèler sur les expositions,
+
+===vvvvvv===
+
+## The *Display* Application
+
+===>>>>>>===
+
+# The *Display* Ontology
+
+foo bar
+
+===vvvvvv===
+
+## Ontological Core
+
+foo bar
 
 ===vvvvvv===
 
@@ -93,7 +124,7 @@ la formulation des hypothèses et la génération de reconstitutions, éventuell
 - Et ça passe par deux entités, espace et l'expôt, et les relations topologiques entre ces expôts peuvent être décrites par ce vocabualire.
 - Et ça nous donne un contexte qui se prête bien la description topologique, en permettant de décrire, par exemple, la symétrie ou la transitivité des propriétés, et d'utiliser des inférences qui viennent enrichir les données historiques
 
-# varia
+**varia**
 
 - Par exemple, l'adjacence des espaces dans un bâtiment
 - Ce qu'on fait essentiellement, c'est une spécialisation de la Building Topology Ontology pour la description de la topologie des objets dans un espace expographique
@@ -101,9 +132,19 @@ la formulation des hypothèses et la génération de reconstitutions, éventuell
 
 ===vvvvvv===
 
-# Mise à l’épreuve
+## Handling Tolopogical Relationships
+
+foo bar
+
+===>>>>>>===
+
+# Use case : *Feux pâles*
 
 *Feux pâles*, Philippe Thomas, CAPC de Bordeaux, 1990
+
+Code barre
+
+We use views and documentation in order to describe the exhibition by the means of the Display Ontology.
 
 /** Notes **/
 
@@ -115,6 +156,20 @@ la formulation des hypothèses et la génération de reconstitutions, éventuell
 - soit en formualant des requêtes SPARQL, ce qui n'est pas l'idéal
 - Alors on peut utiliser une interface Web un peu plus conviviale et intuitive, en attendant d'apprendre SPARQL
 - Et ça ressemble à ça
+
+===vvvvvv===
+
+## Describing exhibits and spaces
+
+Test
+
+![viz-1](./img/viz-1.png)
+
+===vvvvvv===
+
+## Reasoning
+
+And what about querying? Definitely the best way to reason with a model!
 
 ===vvvvvv===
 
