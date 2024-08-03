@@ -134,40 +134,137 @@ foo bar
 
 ## Handling Tolopogical Relationships
 
-foo bar
+test
+
+![viz-2](./img/tmp-viz-2.png)
 
 ===>>>>>>===
 
-# Use case : *Feux pâles*
+# Use Case: *Feux pâles* (Thomas, 1990)
 
-*Feux pâles*, Philippe Thomas, CAPC de Bordeaux, 1990
-
-Code barre
-
-We use views and documentation in order to describe the exhibition by the means of the Display Ontology.
+<figure>
+  <img data-src="./img/vue-1.png" alt="Salle d'entrée de l’expostion Feux pâles.">
+  <figcaption>Vue de l’exposition Feux pâles (1990), “Préambule”. Photo. : Frédéric Delpech  ©&#0160;Claire&#0160;Burrus, Paris / Jan Mot, Bruxelles.</figcaption>
+</figure>
 
 /** Notes **/
 
+- We use views and documentation in order to describe the exhibition by the means of the Display Ontology.
+
+**Varia**
+
 - Par la suite, ce qu'on a voulu faire c'est de mettre à l'épreuve ce modèle en décrivant une exposition
 - donc on a choisi Feux pâles, de Philippe Thomas, 1990. Suggestion de ma collègue Zoë, qui travaille avec moi sur ce projet
-- Donc on a décrit cette exposition en vertu du modèle
-- On a mis les données dans un entrepôt de données RDF
-- À partir de là, on peut accéder aux données
-- soit en formualant des requêtes SPARQL, ce qui n'est pas l'idéal
-- Alors on peut utiliser une interface Web un peu plus conviviale et intuitive, en attendant d'apprendre SPARQL
-- Et ça ressemble à ça
 
 ===vvvvvv===
 
-## Describing exhibits and spaces
+<!-- What we might need here is the r-stack class with fragments: https://revealjs.com/layout/#stack (but it doesn't work with the need of updating textual content)-->
 
-Test
+## Exhibits & Spaces Relationship
 
-![viz-1](./img/viz-1.png)
+Instantiation syntax
+
+![Instantiation syntax](./img/tmp-1.png)
+
+/** Notes **/
+
+- We simply instantiate a member of the `display:Exhibit` class to indicate the presence of an exhibit in the exhibition.
+
+===vvvvvv===
+
+## Exhibits & Spaces Relationship
+
+Combining the instantiation and the instance
+
+![Combination syntax](./img/tmp-2.png)
+
+/** Notes **/
+
+- So from now we can combine the instantiation within a single entity, just to make things lighter.
+
+===vvvvvv===
+
+## Exhibits & Spaces Relationship
+
+`display:containsExhibit`: A space contains an exhibit
+
+![A space contains an exhibit](./img/tmp-3.png)
+
+/** Notes **/
+
+- And to put that work in a space it's as simple as the instantiation.
+
+===vvvvvv===
+
+## Exhibits & Spaces Relationship
+
+Spaces are described within the `bot:` namespace.
+
+![A space contains an exhibit](./img/tmp-4.png)
+
+/** Notes **/
+
+- The description of the spaces uses the classes and properties of the BOT namespace.
+
+===vvvvvv===
+
+## Exhibits & Spaces Relationship
+
+`display:HangingInterface`: Hanging exhibits
+
+![viz-1](./img/tmp-viz-1.png)
+
+/** Notes **/
+
+- Using the Hanging Interface Class it can easily be stated that the CAPC work, the barcode that welcomes visitors, that we have just seen before, is hung on the entrance wall panneling.
+
+===vvvvvv===
+
+## Exhibits & Spaces Relationship
+
+`display:PathwayInterface`: Circulating between spaces
+
+![viz-1](./img/tmp-viz-1.png)
+
+/** Notes **/
+
+- And finally the entrance area communicates with a first room via two passages.
+
+===vvvvvv===
+<style display="none">
+
+img#inventaire {
+  max-width: 50%;
+}
+
+</style>
+
+## Exhibition Space Configuration
+
+<figure>
+  <img id ="inventaire" data-src="./img/plan-FP-inventaire.png" alt="Détail du plan Détail su plan de l’exposition Feux pâles au CAPC, galerie Foy.">
+  <figcaption>Détail su plan de l’exposition Feux pâles au CAPC, galerie Foy. ©&#0160;Zoë&#0160;Renaudie.</figcaption>
+</figure>
+
+/** Notes **/
+
+- notes
+
+===vvvvvv===
+
+## Exhibition Space Configuration
+
+Graphe avec mise en évidence sur le plan.
+
+/** Notes **/
+
+- notes
 
 ===vvvvvv===
 
 ## Reasoning
+
+Reasonning for spatial reconstitution
 
 And what about querying? Definitely the best way to reason with a model!
 

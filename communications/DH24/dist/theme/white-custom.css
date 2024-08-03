@@ -18,9 +18,9 @@
   --r-heading-color: #292e38;
   --r-heading-line-height: 1.2;
   --r-heading-text-transform: none;
-  --r-heading1-size: 1.4em;
-  --r-heading2-size: 1.4em;
-  --r-heading3-size: 1.2em;
+  --r-heading1-size: 1.2em;
+  --r-heading2-size: 1.2em;
+  --r-heading3-size: 1em;
   --r-code-font: IBM Plex Mono, monospace;
 }
 
@@ -51,7 +51,23 @@
   /* semibold */
   font-weight: 600;
 }
- 
+
+.reveal code {
+  font-size: 0.85em;
+  /* background-color: #ffd1e1; */
+  font-weight: 600;
+}
+
+.reveal figure > img,
+figure > figcaption {
+  max-width: 75%;
+  font-size: 45%;
+}
+
+.reveal figure > img {
+  margin-bottom: 0;
+}
+
 /*********************************************
  * LINKS
  *********************************************/
