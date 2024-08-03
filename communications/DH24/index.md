@@ -97,19 +97,55 @@ la formulation des hypothèses et la génération de reconstitutions, éventuell
 
 ===vvvvvv===
 
-## The *Display* Application
+## The Display Application
 
 ===>>>>>>===
 
-# The *Display* Ontology
-
-foo bar
+# The Display Ontology
 
 ===vvvvvv===
 
 ## Ontological Core
 
-foo bar
+A perspective on the (art) exhibition based on:
+
+- concept of *Exhibit*
+- spatial logics (definition of abstract topological relationships)
+
+===vvvvvv===
+
+## The Main Conceptualization
+
+- everything takes place in exhibition spaces
+- every exhibition entity (artistic or technical) is an Exhibit
+
+/** Notes **/
+
+- And that is the conceptualization we want to share with the museology community using the semantic web tools.
+
+===vvvvvv===
+
+## The Exhibit Class
+
+diagramme
+
+===vvvvvv===
+
+## Handling Space
+
+Reusing BOT
+
+===vvvvvv===
+
+## The `bot:` & `display:` Alignment Strategy
+
+===vvvvvv===
+
+## Handling Tolopogical Relationships
+
+test
+
+![viz-2](./img/tmp-viz-2.png)
 
 ===vvvvvv===
 
@@ -130,13 +166,6 @@ foo bar
 - Ce qu'on fait essentiellement, c'est une spécialisation de la Building Topology Ontology pour la description de la topologie des objets dans un espace expographique
 - Un travail particulier a été mené sur les relations topologiques destiné à pouvoir tirer au maximum parti des inférences.
 
-===vvvvvv===
-
-## Handling Tolopogical Relationships
-
-test
-
-![viz-2](./img/tmp-viz-2.png)
 
 ===>>>>>>===
 
@@ -283,9 +312,15 @@ And what about querying? Definitely the best way to reason with a model!
 - et je découvre effectivement qu'ily a deux...
 - alors voilà, ce sont les outils que nous pourrons utiliser bientôt dans ce projet pour soutenir la formulation d’hypothèses l’enregistrement des interprétations.
 
+===>>>>>>===
+
+# Conclusion
+
+foo
+
 ===vvvvvv===
 
-# Références
+## Références
 
 <div class="csl-bib-body" style="line-height: 1.35; margin-left: 2em; text-indent:-2em; font-size: 1.5rem">
   <div class="csl-entry" style="margin-bottom: 0.5em;">Guillem, A., Gros, A., Reby, K., Abergel, V. et DeLuca, L. (2023). RCC8 for CIDOC CRM: Semantic Modeling of Mereological and Topological Spatial Relations in Notre-Dame de Paris. Dans A. Bikakis, R. Ferrario, S. Jean, B. Markhoff, A. Mosca et M. Nicolosi Asmundo (dir.), <em>SWODCH’23&#0160: International Workshop on Semantic Web and Ontology Design for Cultural Heritage</em>. <a href="https://hal.science/hal-04275714">https://hal.science/hal-04275714</a></div>
@@ -297,3 +332,5 @@ And what about querying? Definitely the best way to reason with a model!
   <div class="csl-entry">Renaudie, Z. (2019). <em>Le monde de <em>Feux pâles</em>, l’exposition à l’épreuve de la conservation-restauration, tome I</em> [Mémoire Master II, École supérieure d’art d’Avignon]. <a href="https://www.academia.edu/40627194/Renaudie_Zo%C3%AB_Le_monde_de_Feux_p%C3%A2les_lexposition_%C3%A0_l%C3%A9preuve_de_la_conservation_restauration_TOME_I">https://www.academia.edu/40627194/Renaudie_Zoë_Le_monde_de_Feux_pâles lexposition_à_l’épreuve_de_la_conservation_restauration_TOME_I</a></div>
   <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adissertation&amp;rft.title=Le%20monde%20de%20%3Cem%3EFeux%20p%C3%A2les%3C%2Fem%3E%2C%20l%26%2339%3Bexposition%20%C3%A0%20l%26%2339%3B%C3%A9preuve%20de%20la%20conservation-restauration%2C%20tome%20I&amp;rft.aufirst=Zo%C3%AB&amp;rft.aulast=Renaudie&amp;rft.au=Zo%C3%AB%20Renaudie&amp;rft.date=2019&amp;rft.language=fr"></span>
 </div>
+
+À la manière des espaces, les expôts peuvent être contenus par d'autres éléments de l'exposition. Il est ainsi possible de décrire l'ensemble des oeuvres contenues par les vitrines de la salle Inventaire du mémorable. Les bustes situés de part et d'autre de cette vitrine se trouvent à sa droite et à sa gauche, ce qui permettra de conclure qu'elle se trouve entre ces deux expôts.
