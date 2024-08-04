@@ -179,7 +179,7 @@ test
 </style>
 
 <!-- .slide:
-data-background-image="./img/usecase-00-front.jpeg" data-background-size=""
+data-background-image="./img/use-case-00-front.jpeg" data-background-size=""
 -->
 
 <div id="credits">Photo. : Frédéric Delpech ©&#0160;Claire&#0160;Burrus, Paris / Jan Mot, Bruxelles.</div>
@@ -275,8 +275,8 @@ The `bot:` namespace: Describing spaces
 
 ## *Feux pâles*: Préambule
 
-<figure>
-  <img data-src="./img/vue-1.png" alt="Salle d'entrée de l’expostion Feux pâles.">
+<figure class="w75">
+  <img data-src="./img/use-case-01-preambule.png" alt="Salle d'entrée de l’exposition Feux pâles.">
   <figcaption>Vue de l’exposition Feux pâles (1990), “Préambule”. Photo. : Frédéric Delpech  ©&#0160;Claire&#0160;Burrus, Paris / Jan Mot, Bruxelles.</figcaption>
 </figure>
 
@@ -294,34 +294,117 @@ The `bot:` namespace: Describing spaces
 
 ===vvvvvv===
 
-<style display="none">
-
-img#inventaire {
-  max-width: 50%;
-}
-
-</style>
-
 ## Exhibition Space Configuration
 
-<figure>
-  <img id ="inventaire" data-src="./img/plan-FP-inventaire.png" alt="Détail du plan Détail su plan de l’exposition Feux pâles au CAPC, galerie Foy.">
-  <figcaption>Détail su plan de l’exposition Feux pâles au CAPC, galerie Foy. ©&#0160;Zoë&#0160;Renaudie.</figcaption>
-</figure>
+<div style="display: flex">
+  <div class="flex-1">
+    <figure>
+      <img data-src="./img/plan-intersections.png" alt="Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy.">
+      <figcaption>
+        Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy. ©&#0160;Zoë&#0160;Renaudie.
+      </figcaption>
+    </figure>
+  </div>
+  <div class="flex-1">
+    <img src="./img/use-case-graph-07.png">
+  </div>
+</div>
+
+
 
 /** Notes **/
 
-- notes
+- So where are now going to the next space!
 
 ===vvvvvv===
 
 ## Exhibition Space Configuration
 
-Graphe avec mise en évidence sur le plan.
+<div style="display: flex">
+  <div class="flex-1">
+    <figure>
+      <img data-src="./img/plan-inventaire.png" alt="Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy.">
+      <figcaption>
+        Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy. ©&#0160;Zoë&#0160;Renaudie.
+      </figcaption>
+    </figure>
+  </div>
+  <div class="flex-1">
+    <img src="./img/use-case-graph-08.png">
+  </div>
+</div>
 
 /** Notes **/
 
-- notes
+- So where are now going to the next space!
+
+===vvvvvv===
+
+## *Feux pâles*: De la propriété littéraire et artistique
+
+<figure class="w75">
+  <img data-src="./img/use-case-02-parcelle.png" alt="Salle d'entrée de l’expostion Feux pâles.">
+  <figcaption>
+    Vue de l’exposition Feux pâles (1990), salle 10 “De la propriété littéraire et artistique”. Photo.&#0160;: Frédéric Delpech © ©&#0160;Claire&#0160;Burrus, Paris / Jan Mot, Bruxelles.
+  </figcaption>
+</figure>
+
+===vvvvvv===
+
+## Intersecting Exhibits
+
+<div style="display: flex">
+  <div class="flex-1">
+    <figure>
+      <img data-src="./img/plan-parcelle.png" alt="Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy.">
+      <figcaption>
+        Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy. ©&#0160;Zoë&#0160;Renaudie.
+      </figcaption>
+    </figure>
+  </div>
+  <div class="flex-1">
+    <img src="./img/use-case-graph-09.png">
+  </div>
+</div>
+
+===vvvvvv===
+
+## Topological Relationship Between Exhibits
+
+`display:faces`: vis-à-vis exhibits
+
+<div style="display: flex">
+  <div class="flex-1">
+    <figure>
+      <img data-src="./img/use-case-03-cabinets.png" alt="Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy.">
+      <figcaption>
+        Vue de l’exposition Feux pâles (1990), salle 2 “Le Cabinet d’amateur”. Photo. : Frédéric Delpech ©&#0160;Claire&#0160;Burrus, Paris / Jan Mot, Bruxelles.
+      </figcaption>
+    </figure>
+  </div>
+  <div class="flex-1">
+    <img src="./img/use-case-graph-10.png">
+  </div>
+</div>
+
+===vvvvvv===
+
+## Topological Relationship Between Exhibits
+
+<figure class="w75">
+  <img data-src="./img/use-case-04-inventaire.png" alt="Salle d'entrée de l’expostion Feux pâles.">
+  <figcaption>
+    Vue de l’exposition Feux pâles (1990), salle 1 “Inventaire du mémorable”. Photo.&#0160;: Frédéric Delpech © ©&#0160;Claire&#0160;Burrus, Paris / Jan Mot, Bruxelles.
+  </figcaption>
+</figure>
+
+===vvvvvv===
+
+## Topological Relationship Between Exhibits
+
+`display:Display`: aggregate of exhibits
+
+![Instantiation syntax](./img/use-case-graph-11.png)
 
 ===vvvvvv===
 
@@ -351,6 +434,18 @@ And what about querying? Definitely the best way to reason with a model!
 # Conclusion
 
 foo
+
+===vvvvvv===
+
+## Financeurs
+
+===vvvvvv===
+
+## Liens?
+
+- ontologie
+- data
+- etc?
 
 ===vvvvvv===
 

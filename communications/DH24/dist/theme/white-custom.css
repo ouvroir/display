@@ -58,9 +58,13 @@
   font-weight: 600;
 }
 
-.reveal figure > img,
-figure > figcaption {
+.reveal figure.w75 > img,
+figure.w75 > figcaption {
   max-width: 75%;
+  font-size: 45%;
+}
+
+figure > figcaption {
   font-size: 45%;
 }
 
