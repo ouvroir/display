@@ -68,6 +68,11 @@ figure > figcaption {
   margin-bottom: 0;
 }
 
+.reveal code {
+  background-color: #ffdbe8;
+  border-radius: 5px;
+}
+
 /*********************************************
  * LINKS
  *********************************************/

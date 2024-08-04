@@ -166,24 +166,27 @@ test
 - Ce qu'on fait essentiellement, c'est une spécialisation de la Building Topology Ontology pour la description de la topologie des objets dans un espace expographique
 - Un travail particulier a été mené sur les relations topologiques destiné à pouvoir tirer au maximum parti des inférences.
 
-
 ===>>>>>>===
 
-# Use Case: *Feux pâles* (Thomas, 1990)
+<style>
+  .reveal #credits {
+    position: fixed;
+    bottom: 0;
+    color: #eee;
+    left: 0;
+    font-size: 14px;
+  }
+</style>
 
-<figure>
-  <img data-src="./img/vue-1.png" alt="Salle d'entrée de l’expostion Feux pâles.">
-  <figcaption>Vue de l’exposition Feux pâles (1990), “Préambule”. Photo. : Frédéric Delpech  ©&#0160;Claire&#0160;Burrus, Paris / Jan Mot, Bruxelles.</figcaption>
-</figure>
+<!-- .slide:
+data-background-image="./img/usecase-00-front.jpeg" data-background-size=""
+-->
+
+<div id="credits">Photo. : Frédéric Delpech ©&#0160;Claire&#0160;Burrus, Paris / Jan Mot, Bruxelles.</div>
 
 /** Notes **/
 
-- We use views and documentation in order to describe the exhibition by the means of the Display Ontology.
-
-**Varia**
-
-- Par la suite, ce qu'on a voulu faire c'est de mettre à l'épreuve ce modèle en décrivant une exposition
-- donc on a choisi Feux pâles, de Philippe Thomas, 1990. Suggestion de ma collègue Zoë, qui travaille avec moi sur ce projet
+# Use Case: *Feux pâles*
 
 ===vvvvvv===
 
@@ -191,13 +194,13 @@ test
 
 ## Exhibits & Spaces Relationship
 
-Instantiation syntax
+`rdf:type`: Instantiation syntax
 
-![Instantiation syntax](./img/tmp-1.png)
+![Instantiation syntax](./img/use-case-graph-00.png)
 
 /** Notes **/
 
-- We simply instantiate a member of the `display:Exhibit` class to indicate the presence of an exhibit in the exhibition.
+- We simply populate the `display:Exhibit` class to indicate the presence of an exhibit in the exhibition.
 
 ===vvvvvv===
 
@@ -205,7 +208,7 @@ Instantiation syntax
 
 Combining the instantiation and the instance
 
-![Combination syntax](./img/tmp-2.png)
+![Instantiation combination visual notation](./img/use-case-graph-01.png)
 
 /** Notes **/
 
@@ -215,45 +218,60 @@ Combining the instantiation and the instance
 
 ## Exhibits & Spaces Relationship
 
-`display:containsExhibit`: A space contains an exhibit
+`display:containsExhibit`: A space contains an exhibit 
 
-![A space contains an exhibit](./img/tmp-3.png)
+![A space contains an exhibit](./img/use-case-graph-02.png)
+
+<!-- <div class="r-stack">
+  <img class="fragment fade-out"
+    data-fragment-index="0"
+    src="./img/tmp-3.png" />
+  <img class="fragment current-visible"
+    data-fragment-index="0"
+    src="./img/tmp-4.png" />
+</div> -->
 
 /** Notes **/
 
-- And to put that work in a space it's as simple as the instantiation.
+- And we put that work in an exhibition space.
 
 ===vvvvvv===
 
 ## Exhibits & Spaces Relationship
 
-Spaces are described within the `bot:` namespace.
+`display:HangingInterface`: Hanging the exhibits
 
-![A space contains an exhibit](./img/tmp-4.png)
+![Hanging the exhibits](./img/use-case-graph-03.png)
 
 /** Notes **/
 
-- The description of the spaces uses the classes and properties of the BOT namespace.
+- Using the Hanging Interface Class it can easily be stated that the CAPC work (the barcode that welcomes visitors, that we have just seen before) is hung on the entrance display wall, and is contained in the exhibition space.
 
 ===vvvvvv===
 
 ## Exhibits & Spaces Relationship
 
-`display:HangingInterface`: Hanging exhibits
+The `bot:` namespace: Describing spaces
 
-![viz-1](./img/tmp-viz-1.png)
+![Describing spaces](./img/use-case-graph-04.png)
 
 /** Notes **/
 
-- Using the Hanging Interface Class it can easily be stated that the CAPC work, the barcode that welcomes visitors, that we have just seen before, is hung on the entrance wall panneling.
+- The description of spaces uses the classes and properties of the `bot:` namespace.
 
 ===vvvvvv===
 
 ## Exhibits & Spaces Relationship
 
-`display:PathwayInterface`: Circulating between spaces
+`display:hasExhibitionSpace`: Space contains space
 
-![viz-1](./img/tmp-viz-1.png)
+![Space contains space](./img/use-case-graph-05.png)
+
+/** Notes **/
+
+- foo
+
+===vvvvvv===
 
 /** Notes **/
 
