@@ -408,26 +408,9 @@ The `bot:` namespace: Describing spaces
 
 ===vvvvvv===
 
-## Reasoning
+## Reasoning: Enhance the graph with the `OWL` semantics
 
-Reasonning for spatial reconstitution
-
-And what about querying? Definitely the best way to reason with a model!
-
-===vvvvvv===
-
-<!-- .slide: data-background-iframe="http://127.0.0.1/~david/dev-web/display-vitrine/feux-pales/" data-background-interactive class="stack" -->
-
-/** Notes **/
-
-- chercher dans cet espace
-- les expôts qui sont vis-à-vis les uns les autres
-- et qui entretiennent une relation topologique quelconque
-- avec des éléments structurants de l'espace
-- alors j'esssaie de construire un espace, abstrait, en exploitant les relation topologiques entre les objets qui sont exposés
-- et par inférence, parce que les expôts sont en relation avec les éléments structurant et parce que la propriété faces est symétrique, à ce que ces deux élgalements structrurant soitent également vis-à-vis
-- et je découvre effectivement qu'ily a deux...
-- alors voilà, ce sont les outils que nous pourrons utiliser bientôt dans ce projet pour soutenir la formulation d’hypothèses l’enregistrement des interprétations.
+![Reasoning](./img/use-case-graph-12.png)
 
 ===>>>>>>===
 
