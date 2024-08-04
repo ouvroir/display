@@ -273,11 +273,27 @@ The `bot:` namespace: Describing spaces
 
 ===vvvvvv===
 
+## *Feux pâles*: Préambule
+
+<figure>
+  <img data-src="./img/vue-1.png" alt="Salle d'entrée de l’expostion Feux pâles.">
+  <figcaption>Vue de l’exposition Feux pâles (1990), “Préambule”. Photo. : Frédéric Delpech  ©&#0160;Claire&#0160;Burrus, Paris / Jan Mot, Bruxelles.</figcaption>
+</figure>
+
 /** Notes **/
 
 - And finally the entrance area communicates with a first room via two passages.
 
 ===vvvvvv===
+
+## Exhibits & Spaces Relationship
+
+`display:PathwayInterface`: Circulating between spaces
+
+![Circulating between spaces](./img/use-case-graph-06.png)
+
+===vvvvvv===
+
 <style display="none">
 
 img#inventaire {
