@@ -107,7 +107,7 @@ la formulation des hypothèses et la génération de reconstitutions, éventuell
 
 ## Ontological Core
 
-A perspective on the (art) exhibition based on:
+A perspective on the exhibition based on:
 
 - concept of *Exhibit*
 - spatial logics (definition of abstract topological relationships)
@@ -117,7 +117,7 @@ A perspective on the (art) exhibition based on:
 ## The Main Conceptualization
 
 - everything takes place in exhibition spaces
-- every exhibition entity (artistic or technical) is an Exhibit
+- every exhibition entity (artistic or technical) is an *Exhibit*
 
 /** Notes **/
 
@@ -127,44 +127,41 @@ A perspective on the (art) exhibition based on:
 
 ## The Exhibit Class
 
-diagramme
+`display:Exhibit`
+
+![The exhibit class instatiation](./img/ontology-00-display.png)
 
 ===vvvvvv===
 
 ## Handling Space
 
-Reusing BOT
+`bot:` Reusing the Building Topology Ontology
+
+> The Building Topology Ontology (BOT) is a minimal OWL DL ontology for defining relationships between the sub-components of a building.
+
+![BOT namespace](./img/ontology-01-bot-namespace.png)
 
 ===vvvvvv===
 
 ## The `bot:` & `display:` Alignment Strategy
 
+![Alignment](./img/ontology-02-alignment.png)
+
 ===vvvvvv===
 
 ## Handling Tolopogical Relationships
 
-test
-
-![viz-2](./img/tmp-viz-2.png)
+![Tolopogical Relationships](./img/ontology-03-bot-display.png)
 
 ===vvvvvv===
 
-<!-- .slide: data-background-iframe="https://ouvroir.github.io/display-ontology/" data-background-interactive class="stack" -->
+## Handling Tolopogical Relationships
 
-/** Notes **/
+![Tolopogical Relationships](./img/ontology-03-topology.png)
 
-- Ce que vous voyez ici, c’est une représentation visuelle de l'ontologie, donc du modèle
-- Qui définit les entités et le vocabulaire que l'on peut utiliser poutr procéder à nos descriptions
-- En bleu foncé, c'est notre point de départ, BOT, une petite ontologie qui sert à décrire les relations topologiques abstraites des espaces d'un bâtiment
-- En bleu pâle, c'est la spécialisation de ce modèle que nous avons préparé, dans le cadre du projet, pour décrire plus spécifiquement les accrochages dans une exposition
-- Et ça passe par deux entités, espace et l'expôt, et les relations topologiques entre ces expôts peuvent être décrites par ce vocabualire.
-- Et ça nous donne un contexte qui se prête bien la description topologique, en permettant de décrire, par exemple, la symétrie ou la transitivité des propriétés, et d'utiliser des inférences qui viennent enrichir les données historiques
+===vvvvvv===
 
-**varia**
-
-- Par exemple, l'adjacence des espaces dans un bâtiment
-- Ce qu'on fait essentiellement, c'est une spécialisation de la Building Topology Ontology pour la description de la topologie des objets dans un espace expographique
-- Un travail particulier a été mené sur les relations topologiques destiné à pouvoir tirer au maximum parti des inférences.
+## Liage avec CIDOC et autres ontologies patrimoniales
 
 ===>>>>>>===
 
@@ -444,5 +441,3 @@ foo
   <div class="csl-entry">Renaudie, Z. (2019). <em>Le monde de <em>Feux pâles</em>, l’exposition à l’épreuve de la conservation-restauration, tome I</em> [Mémoire Master II, École supérieure d’art d’Avignon]. <a href="https://www.academia.edu/40627194/Renaudie_Zo%C3%AB_Le_monde_de_Feux_p%C3%A2les_lexposition_%C3%A0_l%C3%A9preuve_de_la_conservation_restauration_TOME_I">https://www.academia.edu/40627194/Renaudie_Zoë_Le_monde_de_Feux_pâles lexposition_à_l’épreuve_de_la_conservation_restauration_TOME_I</a></div>
   <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adissertation&amp;rft.title=Le%20monde%20de%20%3Cem%3EFeux%20p%C3%A2les%3C%2Fem%3E%2C%20l%26%2339%3Bexposition%20%C3%A0%20l%26%2339%3B%C3%A9preuve%20de%20la%20conservation-restauration%2C%20tome%20I&amp;rft.aufirst=Zo%C3%AB&amp;rft.aulast=Renaudie&amp;rft.au=Zo%C3%AB%20Renaudie&amp;rft.date=2019&amp;rft.language=fr"></span>
 </div>
-
-À la manière des espaces, les expôts peuvent être contenus par d'autres éléments de l'exposition. Il est ainsi possible de décrire l'ensemble des oeuvres contenues par les vitrines de la salle Inventaire du mémorable. Les bustes situés de part et d'autre de cette vitrine se trouvent à sa droite et à sa gauche, ce qui permettra de conclure qu'elle se trouve entre ces deux expôts.
