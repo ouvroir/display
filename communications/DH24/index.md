@@ -9,7 +9,11 @@
   position: relative;
   bottom: 40px;
 }
+.reveal h3 {
+  margin-top: 1em;  
+  }
 </style>
+
 
 # Documenter les accrochages d’exposition ou de collection muséales&#0160;: une approche ontologique
 
@@ -21,13 +25,13 @@
 
 <div style="display: flex">
   <div class="flex-1">
-    <img src="./img/logo-ouvroir.svg">
+    <img style="height: 2.5em" src="./img/logo-cieco.svg">
   </div>
   <div class="flex-1">
-    <img src="./img/logo-ouvroir.svg">
+    <img style="height: 2.5em" src="./img/logo-ouvroir.svg">
   </div>
   <div class="flex-1">
-    <img id="udem" src="./img/logo-udem.png">
+    <img style="height: 3em" id="udem" src="./img/logo-udem-officiel.svg">
   </div>
 </div>
 
@@ -39,65 +43,79 @@
 
 ===vvvvvv===
 
-## Table
+## Table of content
 
-1. Le projet Display
-1. Approche ontologique de la topologie de l’exposition
-1. Étude de cas&#0160;: *Feux pâles*
-1. Entrepôt RDF et interface Web
+1. A spatial take on the exhibition <!-- @todo check take -->
+1. The Display Ontology
+1. Use Case: *Feux pâles*
 
-===>>>>>>===
+===vvvvvv===
 
 ## The *Display* Project
 
 - **Reconstitution** d’accrochages d’exposition ou de collection muséales
 - **Basée** sur de la documentation historique hétérogène et lacunaire
 
-/** Notes **/
+===vvvvvv===
 
-- D'abord, l'utilisation des outils que je vous présente s'inscrit dans le cadre du projet Display, réalisé au laboratoire L'Ouvroir d'histroire de l'art et de muséologie numériques.
-- C'est un projet qui vise la reconstitution d'exposition et d'accrochages historiques, dans divers types d'environnements numériques
-- Et ce, à partir d'une documentation historique de nature hétérogène (vues d’exposition, des listes de prêts, plans des salles d’exposition, des catalogues, etc.), donc une documentation qui comporte toute sorte de lacunes et d'incertitudes en lien avec les informations que l'on peut utiliser pour procéder à ces reconstitutions.
+## Context of the project
+
+### New uses of collections in art museums
+
+- SSHRC Partnership
+- ~20 researchers, 6 canadian museums
+- First axis : @todo (Marie Fraser)
+- [www.cieco.co](https://www.cieco.co)
+
+### Ouvoir d’histoire de l’art et de muséologie numériques
+
+- Digital lab to support the research
+- [ouvroir.umontreal.ca](https://ouvroir.umontreal.ca)
 
 ===vvvvvv===
 
-## Spatial View on the Exhibition
+## Cultural heritage documentation models
 
-foo bar
+- [CIDOC-CRM](http://www.cidoc-crm.org)
+- [CRMgeo](doi:[10.1007/s00799-016-0192-4](https://doi.org/10.1007/s00799-016-0192-4).): A Spatiotemporal Extension of CIDOC-CRM
+- Art Tracks http://www.museumprovenance.org
+- [OntoExhibit](https://complexhibit-project.github.io/OntoExhibit/index-en.html) (other presentation in this conference)
+- [CRMaaa ontology](https://ontome.net/namespace/246)
+
+===>>>>>>===
+
+# A spatial take on the exhibition
+
+<!-- @todo check take -->
 
 ===vvvvvv===
 
 ## 3D for Historical Reconstruction
 
-foo bar
+@todo Städel http://zeitreise.staedelmuseum.de/vr-app/
 
 ===vvvvvv===
 
-## Modèle de documentation des accrochages
+## From 3D to a documentation model
 
-- Modèle de documentation :
-    - pérennisation et interopérabilité des données sur les expositions
-    - prise en charge des incertitudes liées aux sources historiques
-- Ontologie informatique pour décrire les expositions ou les accrochages dans une perspective **topologique**
+In our use case
 
-/** Notes **/
+- archival and visual sources are essentials
+- limited constructive clues (vs archeology)
 
-- Pour palier ce problème, la première phase du projet consiste à élaborer un modèle de documentation, qui se veut pérenne et interopérable
-- et qui vise à prendre en charge les incertitudes liées aux sources historiques
-- La solution qu'on explorons actuellement est celle d'une ontologie informatique qui vient soutenir la recherche et la collecte de l’information historique
-- et qui vient permettre la description formelle des expositions dans une perspective particulière, qui est celle des relations topologiques des objets dans l'espace de l'exposition.
-- que l'on peut visualiser ainsi.
+--> a spatial documentation model independant of any visualisation techniques
 
-**varia**
-
-la formulation des hypothèses et la génération de reconstitutions, éventuellemetn de faire usage des données dans les reconstitutions, mais aussi dans n'imoprte quel projet
-
-- idée de la disposition spatiale des objets, dans une exposition, à l’aide d’un modèle documentaire qui permet la description des relations topologiques abstraites entre les objets
-- Pourquoi abstraite? Documentation lacunaire, qui est loin de tout nous révèler sur les expositions,
+- data exchange and long term preservation
+- various applications
+- 3D visualisations
 
 ===vvvvvv===
 
 ## The Display Application
+
+- Graphical user interface for art historian
+- hypothesis and analysis
+- 3D and simplified visualisation rendering
 
 ===>>>>>>===
 
