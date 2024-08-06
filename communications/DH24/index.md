@@ -92,7 +92,7 @@ DH2024, 19 janvier 2024
 
 <iframe width="900" height="506.25" src="https://www.youtube.com/embed/XCqiSbplATU?si=tMcEuk9Lycfnties&amp;start=47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Das Städel museum in 3D, Ihr Virtueller Besuch im Jahr 1878 http://zeitreise.staedelmuseum.de/vr-app/
+<p style="font-size: 0.6em">Das Städel museum in 3D, Ihr Virtueller Besuch im Jahr 1878 <a href="http://zeitreise.staedelmuseum.de/vr-app/">http://zeitreise.staedelmuseum.de/vr-app/</a></p>
 
 ===vvvvvv===
 
@@ -587,7 +587,7 @@ Focusing on the expographic configuration `but` compatible with CIDOC-CRM
   </div>
 </div>
 <div>
-  <img style="height: 0.9em" src="./img/logo-crsh.svg">
+  <img style="height: 0.9em" src="./img/logo-crsh-en.svg">
 </div>
 
 
