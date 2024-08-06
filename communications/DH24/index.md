@@ -14,7 +14,7 @@
   }
 
 .reveal .logos {
-  margin-top: 1em;
+  margin-top: 2em;
 }
 </style>
 
@@ -25,9 +25,9 @@
 
 **Emmanuel Château-Dutier, David&#0160;Valentine, Zoë&#0160;Renaudie et Lena&#0160;Krause**
 
-19 janvier 2024
+DH2024, 19 janvier 2024
 
-<div style="display: flex">
+<div class="logos" style="display: flex">
   <div class="flex-1">
     <img style="height: 2.5em" src="./img/logo-cieco-grey.svg">
   </div>
@@ -82,7 +82,7 @@
 
 ===>>>>>>===
 
-# A spatial take on the exhibition
+# A spatial perspective on the exhibition
 
 <!-- @todo check take -->
 
@@ -90,7 +90,9 @@
 
 ## 3D for Historical Reconstruction
 
-@todo Städel http://zeitreise.staedelmuseum.de/vr-app/
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XCqiSbplATU?si=tMcEuk9Lycfnties&amp;start=47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Das Städel museum in 3D, Ihr Virtueller Besuch im Jahr 1878 http://zeitreise.staedelmuseum.de/vr-app/
 
 ===vvvvvv===
 
@@ -101,7 +103,7 @@ In our use case
 - archival and visual sources are essentials
 - limited constructive clues (vs archeology)
 
---> a spatial documentation model independant of any visualisation techniques
+-> a spatial documentation model independant of any visualisation techniques
 
 - data exchange and long term preservation
 - various applications
