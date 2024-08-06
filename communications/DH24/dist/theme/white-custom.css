@@ -22,6 +22,8 @@
   --r-heading2-size: 1.2em;
   --r-heading3-size: 1em;
   --r-code-font: IBM Plex Mono, monospace;
+  --r-link-color: #007FFF;
+  --r-selection-background-color: #ffdbe8;
 }
 
 .reveal .slides {

@@ -151,13 +151,25 @@ A perspective on the exhibition based on:
 
 ===vvvvvv===
 
-## Handling Space
+## Handling Description of Space
 
-`bot:` Reusing the Building Topology Ontology
+Reusing the Building Topology Ontology
 
 > The Building Topology Ontology (BOT) is a minimal OWL DL ontology for defining relationships between the sub-components of a building.
 
-![BOT namespace](./img/ontology-01-bot-namespace.png)
+Specification: https://w3c-lbd-cg.github.io/bot/
+Namespace: `https://w3id.org/bot#`
+
+===vvvvvv===
+
+## Handling Description of Space
+
+The Building Topology Ontology (BOT)
+
+<figure class="w75">
+  <img data-src="./img/bot-zones.png" alt="Salle d'entrée de l’exposition Feux pâles.">
+  <figcaption>Classes and relationships involved in Zones (Rasmussen et al., 2021)</figcaption>
+</figure>
 
 ===vvvvvv===
 
@@ -179,7 +191,15 @@ A perspective on the exhibition based on:
 
 ===vvvvvv===
 
-## Liage avec CIDOC et autres ontologies patrimoniales
+## Linkage with CIDOC and heritage ontologies
+
+![CIDOC](./img/ontology-041-cidoc.png)
+
+===vvvvvv===
+
+## Linkage with CIDOC and heritage ontologies
+
+![CIDOC](./img/ontology-04-cidoc.png)
 
 ===>>>>>>===
 
@@ -360,7 +380,7 @@ The `bot:` namespace: Describing spaces
 <figure class="w75">
   <img data-src="./img/use-case-02-parcelle.png" alt="Salle d'entrée de l’expostion Feux pâles.">
   <figcaption>
-    Vue de l’exposition Feux pâles (1990), salle 10 “De la propriété littéraire et artistique”. Photo.&#0160;: Frédéric Delpech © ©&#0160;Claire&#0160;Burrus, Paris / Jan Mot, Bruxelles.
+    Vue de l’exposition Feux pâles (1990), salle 10 “De la propriété littéraire et artistique”. Photo.&#0160;: Frédéric Delpech ©&#0160;Claire&#0160;Burrus, Paris / Jan Mot, Bruxelles.
   </figcaption>
 </figure>
 
