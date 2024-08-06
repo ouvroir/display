@@ -491,7 +491,7 @@ The Diplay ontology
 
 ===vvvvvv===
 
-Focusing on the expographic configuration but compatible with CIDOC-CRM
+Focusing on the expographic configuration `but` compatible with CIDOC-CRM
 
 Other ontological works have addressed art exhibitions but have not con
 
