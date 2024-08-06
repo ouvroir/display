@@ -12,10 +12,14 @@
 .reveal h3 {
   margin-top: 1em;  
   }
+
+.reveal .logos {
+  margin-top: 1em;
+}
 </style>
 
 
-# Documenter les accrochages d’exposition ou de collection muséales&#0160;: une approche ontologique
+# Documenting exhibition and collection displays: an ontological approach
 
 <!-- Documenting exhibition or museum collections hangings: an ontological approach -->
 
@@ -25,7 +29,7 @@
 
 <div style="display: flex">
   <div class="flex-1">
-    <img style="height: 2.5em" src="./img/logo-cieco.svg">
+    <img style="height: 2.5em" src="./img/logo-cieco-grey.svg">
   </div>
   <div class="flex-1">
     <img style="height: 2.5em" src="./img/logo-ouvroir.svg">
@@ -35,19 +39,13 @@
   </div>
 </div>
 
-/** Notes **/
-
-- Hi!
-
-<!-- Cette démonstration vise à présenter une ontologie informatique développée au sein du laboratoire Ouvroir d’histoire de l’art et de muséologie numérique de l’Université de Montréal. Cette ontologie se destine à décrire de manière explicite et formelle les traits d’un accrochage ou d’une exposition (proximité et contiguïté des œuvres, vis-à-vis, etc.). Dans un contexte documentaire souvent lacunaire, ce modèle abstrait permet l’enregistrement de l’information historique concernant les accrochages grâce à une approche spatiale définissant les possibilités d’inférences topologiques entre les objets de l’espace expographique. La démonstration s’appuie sur un jeu de données décrivant l’exposition Feux pâles de Philippe Thomas (CAPC de Bordeaux, 1990) et sur l’utilisation d’un outil graphique pour la formulation de requêtes et l’exploration des données. -->
-
 ===vvvvvv===
 
 ## Table of content
 
-1. A spatial take on the exhibition <!-- @todo check take -->
+1. A spatial perspective on the exhibition
 1. The Display Ontology
-1. Use Case: *Feux pâles*
+1. Pattern presentation with use case: *Feux pâles*
 
 ===vvvvvv===
 
@@ -455,15 +453,27 @@ foo
 
 ===vvvvvv===
 
-## Financeurs
+## Merci !
 
-===vvvvvv===
+- Display ontology [https://ouvroir.github.io/display-ontology/](https://ouvroir.github.io/display-ontology/)
+- [ouvroir.umontreal.ca](https://ouvroir.umontreal.ca)
 
-## Liens?
+<div class="logos" style="display: flex">
+  <div class="flex-1">
+    <img style="height: 1.7em" src="./img/logo-cfi.svg">
+  </div>
+  <div class="flex-1">
+    <img style="height: 2.5em" id="udem" src="./img/logo-quebec.svg">
+  </div>
+  <div class="flex-1">
+    <img style="height: 2.5em" id="udem" src="./img/logo-udem-officiel.svg">
+  </div>
+</div>
+<div>
+    <img style="height: 0.9em" src="./img/logo-crsh.svg">
+  </div>
 
-- ontologie
-- data
-- etc?
+
 
 ===vvvvvv===
 
