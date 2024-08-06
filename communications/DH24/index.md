@@ -52,7 +52,7 @@ DH2024, 19 janvier 2024
 
 - SSHRC Partnership
 - ~20 researchers, 6 canadian museums
-- First axis : @todo (Marie Fraser)
+- First axis : *Exhibited Collections* (Marie Fraser dir.)
 - [www.cieco.co](https://www.cieco.co)
 
 ### Ouvoir d’histoire de l’art et de muséologie numériques
@@ -69,6 +69,8 @@ DH2024, 19 janvier 2024
 - Art Tracks http://www.museumprovenance.org
 - [OntoExhibit](https://complexhibit-project.github.io/OntoExhibit/index-en.html) (other presentation in this conference)
 - [CRMaaa ontology](https://ontome.net/namespace/246)
+
+**to date, there is no specialized model for the documentation of exhibition or collection diplays**
 
 ===vvvvvv===
 
@@ -99,11 +101,11 @@ Das Städel museum in 3D, Ihr Virtueller Besuch im Jahr 1878 http://zeitreise.st
 In our use case
 
 - archival and visual sources are essentials
-- limited constructive clues (vs archeology)
+- limited constructive evidence (*vs* archeology)
 
--> a spatial documentation model independant of any visualisation techniques
+**➜ a spatial documentation model independant of any visualisation techniques**
 
-- data exchange and long term preservation
+- data exchange and long-term preservation
 - various applications
 - 3D visualisations
 
@@ -111,9 +113,9 @@ In our use case
 
 ## The Display Application
 
-- Graphical user interface for art historian
-- hypothesis and analysis
-- 3D and simplified visualisation rendering
+- Graphical user interface for art historians
+- gathering historical information and formulating hypotheses
+- generating 3D and simplified visualisation rendering
 
 ===>>>>>>===
 
@@ -475,11 +477,25 @@ The `bot:` namespace: Describing spaces
 
 # Conclusion
 
-foo
+===vvvvvv===
+
+## Conclusion
+
+The Diplay ontology
+- can describe complex curatorial phenomena in fine detail 
+- offers enough expressivity to leverage the ontological model through inferences
 
 ===vvvvvv===
 
 <!-- .slide: data-background-iframe="https://ouvroir.github.io/display-ontology/" data-background-interactive class="stack" -->
+
+===vvvvvv===
+
+Focusing on the expographic configuration but compatible with CIDOC-CRM
+
+Other ontological works have addressed art exhibitions but have not con
+
+**Semantic web technologies provide an abstract model for effectively reasoning about incomplete and sometimes contradictory documentation.**
 
 ===vvvvvv===
 
