@@ -481,6 +481,10 @@ foo
 
 ===vvvvvv===
 
+<!-- .slide: data-background-iframe="https://ouvroir.github.io/display-ontology/" data-background-interactive class="stack" -->
+
+===vvvvvv===
+
 ## Merci !
 
 - Display ontology [https://ouvroir.github.io/display-ontology/](https://ouvroir.github.io/display-ontology/)
