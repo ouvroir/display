@@ -214,7 +214,7 @@ The Building Topology Ontology (BOT)
 </style>
 
 <!-- .slide:
-data-background-image="./img/use-case-00-front.jpeg" data-background-size=""
+data-background-image="./img/use-case-00-front.jpeg" data-background-size="auto 100%"
 -->
 
 <div id="credits">Photo. : Frédéric Delpech ©&#0160;Claire&#0160;Burrus, Paris / Jan Mot, Bruxelles.</div>
@@ -238,6 +238,8 @@ data-background-image="./img/use-case-00-front.jpeg" data-background-size=""
 - We simply populate the `display:Exhibit` class to indicate the presence of an exhibit in the exhibition.
 
 ===vvvvvv===
+
+<!-- .slide: data-visibility="hidden" -->
 
 ## Exhibits & Spaces Relationship
 
@@ -334,7 +336,25 @@ The `bot:` namespace: Describing spaces
 <div style="display: flex">
   <div class="flex-1">
     <figure>
-      <img data-src="./img/plan-intersections.png" alt="Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy.">
+      <img data-src="./img/plan-intersections-couloir.png" alt="Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy.">
+      <figcaption>
+        Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy. ©&#0160;Zoë&#0160;Renaudie.
+      </figcaption>
+    </figure>
+  </div>
+  <div class="flex-1">
+    <img src="./img/use-case-graph-071.png">
+  </div>
+</div>
+
+===vvvvvv===
+
+## Exhibition Space Configuration
+
+<div style="display: flex">
+  <div class="flex-1">
+    <figure>
+      <img data-src="./img/plan-intersections-spaces.png" alt="Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy.">
       <figcaption>
         Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy. ©&#0160;Zoë&#0160;Renaudie.
       </figcaption>
@@ -344,12 +364,6 @@ The `bot:` namespace: Describing spaces
     <img src="./img/use-case-graph-07.png">
   </div>
 </div>
-
-
-
-/** Notes **/
-
-- So where are now going to the next space!
 
 ===vvvvvv===
 
@@ -401,6 +415,18 @@ The `bot:` namespace: Describing spaces
     <img src="./img/use-case-graph-09.png">
   </div>
 </div>
+
+===vvvvvv===
+
+## *Feux pâles*: Le cabinet d’amateur
+
+<figure class="w75">
+  <img data-src="./img/use-case-03-cabinets.png" alt="Salle d'entrée de l’expostion Feux pâles.">
+  <figcaption>
+    Vue de l’exposition Feux pâles (1990), salle 2 “Le Cabinet d’amateur”. Photo. : Frédéric Delpech ©&#0160;Claire&#0160;Burrus, Paris / Jan Mot, Bruxelles.
+  </figcaption>
+</figure>
+
 
 ===vvvvvv===
 
