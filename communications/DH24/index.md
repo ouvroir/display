@@ -181,6 +181,12 @@ The Building Topology Ontology (BOT)
 
 ## Handling Tolopogical Relationships
 
+![Tolopogical Relationships](./img/ontology-03-1-bot-display.png)
+
+===vvvvvv===
+
+## Handling Tolopogical Relationships
+
 ![Tolopogical Relationships](./img/ontology-03-bot-display.png)
 
 ===vvvvvv===
@@ -333,6 +339,8 @@ The `bot:` namespace: Describing spaces
 
 ## Exhibition Space Configuration
 
+`bot:intersectsZone`: Intersecting Zones
+
 <div style="display: flex">
   <div class="flex-1">
     <figure>
@@ -350,6 +358,8 @@ The `bot:` namespace: Describing spaces
 ===vvvvvv===
 
 ## Exhibition Space Configuration
+
+`bot:intersectsZone`: Intersecting Zones
 
 <div style="display: flex">
   <div class="flex-1">
@@ -369,10 +379,12 @@ The `bot:` namespace: Describing spaces
 
 ## Exhibition Space Configuration
 
+`display:hasExhibitionSpace`: Space contains space
+
 <div style="display: flex">
   <div class="flex-1">
     <figure>
-      <img data-src="./img/plan-inventaire.png" alt="Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy.">
+      <img data-src="./img/plan-inventaire-01.png" alt="Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy.">
       <figcaption>
         Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy. ©&#0160;Zoë&#0160;Renaudie.
       </figcaption>
@@ -383,9 +395,45 @@ The `bot:` namespace: Describing spaces
   </div>
 </div>
 
-/** Notes **/
+===vvvvvv===
 
-- So where are now going to the next space!
+## Exhibition Space Configuration
+
+`display:hasExhibitionSpace`: Space contains space
+
+<div style="display: flex">
+  <div class="flex-1">
+    <figure>
+      <img data-src="./img/plan-inventaire-02.png" alt="Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy.">
+      <figcaption>
+        Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy. ©&#0160;Zoë&#0160;Renaudie.
+      </figcaption>
+    </figure>
+  </div>
+  <div class="flex-1">
+    <img src="./img/use-case-graph-08-2.png">
+  </div>
+</div>
+
+===vvvvvv===
+
+## Exhibition Space Configuration
+
+`display:adjacentExhibit:`: Spaces share element
+
+<div style="display: flex">
+  <div class="flex-1">
+    <figure>
+      <img data-src="./img/plan-inventaire-03.png" alt="Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy.">
+      <figcaption>
+        Détail du plan de l’exposition Feux pâles au CAPC, galerie Foy. ©&#0160;Zoë&#0160;Renaudie.
+      </figcaption>
+    </figure>
+  </div>
+  <div class="flex-1">
+    <img src="./img/use-case-graph-08-3.png">
+  </div>
+</div>
 
 ===vvvvvv===
 
@@ -401,6 +449,8 @@ The `bot:` namespace: Describing spaces
 ===vvvvvv===
 
 ## Intersecting Exhibits
+
+`display:intersectingExhibit`: Exhibit spans spaces
 
 <div style="display: flex">
   <div class="flex-1">
@@ -465,7 +515,29 @@ The `bot:` namespace: Describing spaces
 
 `display:Display`: aggregate of exhibits
 
-![Instantiation syntax](./img/use-case-graph-11.png)
+![Instantiation syntax](./img/use-case-graph-11-1.png)
+
+===vvvvvv===
+
+## Topological Relationship Between Exhibits
+
+`display:Display`: aggregate of exhibits
+
+![Instantiation syntax](./img/use-case-graph-11-2.png)
+
+===vvvvvv===
+
+## Topological Relationship Between Exhibits
+
+`display:Display`: aggregate of exhibits
+
+![Instantiation syntax](./img/use-case-graph-11-3.png)
+
+===vvvvvv===
+
+## Reasoning: Enhance the graph with the `OWL` semantics
+
+![Reasoning](./img/use-case-graph-12-1.png)
 
 ===vvvvvv===
 
