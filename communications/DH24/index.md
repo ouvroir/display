@@ -39,20 +39,10 @@ DH2024, 19 janvier 2024
   </div>
 </div>
 
-===vvvvvv===
-
-## Table of content
-
-1. A spatial perspective on the exhibition
-1. The Display Ontology
-1. Pattern presentation with use case: *Feux pâles*
 
 ===vvvvvv===
 
-## The *Display* Project
-
-- **Reconstitution** d’accrochages d’exposition ou de collection muséales
-- **Basée** sur de la documentation historique hétérogène et lacunaire
+![Multiple sources](./img/divers.png)
 
 ===vvvvvv===
 
@@ -80,6 +70,14 @@ DH2024, 19 janvier 2024
 - [OntoExhibit](https://complexhibit-project.github.io/OntoExhibit/index-en.html) (other presentation in this conference)
 - [CRMaaa ontology](https://ontome.net/namespace/246)
 
+===vvvvvv===
+
+## Table of content
+
+1. A spatial perspective on the exhibition
+1. The Display Ontology
+1. Pattern presentation with use case: *Feux pâles*
+
 ===>>>>>>===
 
 # A spatial perspective on the exhibition
@@ -90,7 +88,7 @@ DH2024, 19 janvier 2024
 
 ## 3D for Historical Reconstruction
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XCqiSbplATU?si=tMcEuk9Lycfnties&amp;start=47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="900" height="506.25" src="https://www.youtube.com/embed/XCqiSbplATU?si=tMcEuk9Lycfnties&amp;start=47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Das Städel museum in 3D, Ihr Virtueller Besuch im Jahr 1878 http://zeitreise.staedelmuseum.de/vr-app/
 
@@ -502,9 +500,8 @@ foo
   </div>
 </div>
 <div>
-    <img style="height: 0.9em" src="./img/logo-crsh.svg">
-  </div>
-
+  <img style="height: 0.9em" src="./img/logo-crsh.svg">
+</div>
 
 
 ===vvvvvv===
