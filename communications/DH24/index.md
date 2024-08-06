@@ -493,8 +493,6 @@ The Diplay ontology
 
 Focusing on the expographic configuration `but` compatible with CIDOC-CRM
 
-Other ontological works have addressed art exhibitions but have not con
-
 **Semantic web technologies provide an abstract model for effectively reasoning about incomplete and sometimes contradictory documentation.**
 
 ===vvvvvv===
