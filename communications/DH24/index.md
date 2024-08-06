@@ -553,7 +553,8 @@ The `bot:` namespace: Describing spaces
 
 ## Conclusion
 
-The Diplay ontology
+The Display ontology
+
 - can describe complex curatorial phenomena in fine detail 
 - offers enough expressivity to leverage the ontological model through inferences
 
