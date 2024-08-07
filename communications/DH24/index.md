@@ -121,7 +121,7 @@ In our use case
 
 ## The Display Application
 
-- Graphical user interface for art historians
+- A GUI for art historians to populate the ontology
 - gathering historical information and formulating hypotheses
 - generating 3D and simplified visualisation rendering
 
@@ -580,7 +580,7 @@ Focusing on the expographic configuration `but` compatible with CIDOC-CRM
 
 ## Merci !
 
-- Display ontology [https://ouvroir.github.io/display-ontology/](https://ouvroir.github.io/display-ontology/)
+- Display ontology <br/>[https://ouvroir.github.io/display-ontology/](https://ouvroir.github.io/display-ontology/)
 - [ouvroir.umontreal.ca](https://ouvroir.umontreal.ca)
 
 <div class="logos" style="display: flex">
