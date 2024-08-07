@@ -5,9 +5,17 @@
 .flex-1-5 {
   flex: 1.5;
 }
-#udem {
+#ouvroir {
   position: relative;
-  bottom: 40px;
+  right: 10%;
+}
+#cieco {
+  max-width: 50%;
+  position: relative;
+	left: 5%;
+}
+#udem {
+  margin-top: 0;
 }
 .reveal h3 {
   margin-top: 1em;  
@@ -25,17 +33,17 @@
 
 **Emmanuel Château-Dutier, David&#0160;Valentine, Zoë&#0160;Renaudie et Lena&#0160;Krause**
 
-DH2024, 19 janvier 2024
+DH2024, August 7
 
 <div class="logos" style="display: flex">
   <div class="flex-1">
-    <img style="height: 2.5em" src="./img/logo-cieco-grey.svg">
+    <img id="cieco" src="./img/logo-cieco-grey.svg">
   </div>
   <div class="flex-1">
-    <img style="height: 2.5em" src="./img/logo-ouvroir.svg">
+    <img id="ouvroir" src="./img/logo-ouvroir.svg">
   </div>
   <div class="flex-1">
-    <img style="height: 3em" id="udem" src="./img/logo-udem-officiel.svg">
+    <img id="udem" src="./img/logo-udem-officiel.svg">
   </div>
 </div>
 
