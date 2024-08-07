@@ -16,6 +16,8 @@
 }
 #udem {
   margin-top: 0;
+  postion: relative;
+  bottom: 15%;
 }
 .reveal h3 {
   margin-top: 1em;  
@@ -37,13 +39,13 @@ DH2024, August 7
 
 <div class="logos" style="display: flex">
   <div class="flex-1">
-    <img id="cieco" src="./img/logo-cieco-grey.svg">
+    <img id="cieco" src="./img/logo-cieco-grey.svg" style="height: 2.3em;">
   </div>
   <div class="flex-1">
-    <img id="ouvroir" src="./img/logo-ouvroir.svg">
+    <img id="ouvroir" src="./img/logo-ouvroir.svg" style="height: 2.1em;">
   </div>
   <div class="flex-1">
-    <img id="udem" src="./img/logo-udem-officiel.svg">
+    <img id="udem" src="./img/logo-udem-officiel.svg" style="height: 2.5em;">
   </div>
 </div>
 
@@ -163,7 +165,8 @@ A perspective on the exhibition based on:
 
 Reusing the Building Topology Ontology
 
-> The Building Topology Ontology (BOT) is a minimal OWL DL ontology for defining relationships between the sub-components of a building.
+> The Building Topology Ontology (BOT) is a minimal OWL DL ontology for defining relationships between the sub-components of a building.<br><br>
+> (Rasmussen et al., 2021b)
 
 Specification: https://w3c-lbd-cg.github.io/bot/
 Namespace: `https://w3id.org/bot#`
@@ -176,7 +179,7 @@ The Building Topology Ontology (BOT)
 
 <figure class="w75">
   <img data-src="./img/bot-zones.png" alt="Salle d'entrée de l’exposition Feux pâles.">
-  <figcaption>Classes and relationships involved in Zones (Rasmussen et al., 2021)</figcaption>
+  <figcaption>Classes and relationships involved in Zones (Rasmussen et al., 2021b)</figcaption>
 </figure>
 
 ===vvvvvv===
