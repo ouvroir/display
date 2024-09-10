@@ -7,10 +7,13 @@ draft: false
 tags:
     - cr 
 
+
 ---
+
 Présents : EM DV ZR 
 
 ## Bilan ontologie
+
 Présentation DH2024. Trop de diapositives mais c'était bien. 
 Bon snapshot d'où en est l'ontologie.
 Bilan : 
@@ -66,6 +69,7 @@ Tout passe par un Interpretation act. Des actes d’interprétations peuvent êt
 ## Stratégie plus générale 
 
 Comment rejoindre la communauté: 
+
 - Présenter le modèle au niveau local : Marie
 - Discuter avec des projets comparables
 - Diffuser plus largement
@@ -75,20 +79,21 @@ D'abord faire un article ?
 Présentation de DH à diffuser.
 
 1. Documenter plus formellement le noyau stable puis la publier pour Version 0.1 
-Doit être prêt en décembre
+   Doit être prêt en décembre
 2. Travailler sur un article de fond
-Quand ? En est-on déjà rendu là ? Il pourrait encore y avoir du mouvement.
-Attendre d'avoir quelque chose de plus avancé. Pour le moment 
+   Quand ? En est-on déjà rendu là ? Il pourrait encore y avoir du mouvement.
+   Attendre d'avoir quelque chose de plus avancé. Pour le moment 
 3. Conférences
-Une conférence CIDOC/muséo 
-Une conférence web sem
-DH2025 ? travail RDF Star?  Ou l'appli?
+   Une conférence CIDOC/muséo 
+   Une conférence web sem
+   DH2025 ? travail RDF Star?  Ou l'appli?
 
 ## Journée Etude mois de décembre
 
 À cette étape, le format de l’événement reste relativement ouvert. Notre idée est surtout de pouvoir mettre en commun avec les collègues qui travaillent sur la documentation des expositions afin de pouvoir engager une discussion informée sur différentes questions en conviant des spécialistes pouvant apporter un regard critique sur les différentes solutions.
 
 Deux questions nous intéressent particulièrement :
+
 - l’articulation du CIDOC avec des modèles topologiques
 - la modélisation des actes d’interprétation (CRM-aaa vs choix adoptés par Onto-Exhibit)
 
@@ -118,23 +123,123 @@ Display - 12min
 11h00 - 12h30 discussion dirigée (envoyer plan et notre papier)
 
 Rétroplanning
+
 - 17 décembre
 - 17 novembre diffusion
 - début novembre, finalisation du programme
-    - titres de leur présentation
-    - affiliation
-    - Bio
-    - présentation de l’événement
-    - matériel en ligne (doc ontologie)
+  - titres de leur présentation
+  - affiliation
+  - Bio
+  - présentation de l’événement
+  - matériel en ligne (doc ontologie)
 - octobre : rappel contenu
 - septembre : confirmer tous les participants
-Présenter comité d'organisation. 
-Donner les informations techniques et besoins. 
-Demander dispo le mardi matin : pour avoir une discussion informelle sur leur présentation pour mettre un accent sur la discussion. 
+  Présenter comité d'organisation. 
+  Donner les informations techniques et besoins. 
+  Demander dispo le mardi matin : pour avoir une discussion informelle sur leur présentation pour mettre un accent sur la discussion. 
 
 ## Modéliser l'expo comme statement. 
+
 Nuria en parle comme un acte performatif. Mais proposition trop complete. 
 Georges plus concise. En parler avec lui. 
 
 A programmer : 
+
 - API
+
+
+
+---
+
+title: Rencontre David Valentine
+description: Compte-rendu de la rencontre
+author: ouvroir
+date: 2024-09-03
+draft: false
+tags:
+    - cr 
+
+---
+
+## Notes
+
+# Rdv David Valentine, 6 septembre 2024
+
+Discussion préliminaire
+
+Pb interfaçage de l’API
+
+Intérêt de pouvoir travailler nativement en RDF avec un TripleStore. Les données sont limitées, le contexte de recherche justifie que l’on cherche à implémenter nativement la base en RDF.
+
+Il existe des templates de requêtes SPARQL.
+
+## Gestion des données
+
+Les données à gérées sont peu nombreuses et sont produites dans le contexte de l’application. Ce cas d’usage ne justifie pas l’utilisation d’une base de données relationnelle intermédiare. On propose une gestion native des données RDF.
+
+### Installation et configuration du framework Jena
+
+
+L’application utilise le framework Jena (Apache). L’application est libre et open source et réunit une importante communauté. Il s’agit aujourd’hui d’une solution standard pour le déploiement d’applications du web sémantique. C’est sans doute actuellement la meilleure option dans l’environnement du logiciel libre. L’environnement est mature et implémente le protocole SPARQL 1.1 mur-à-mur, elle offre des outils pour travailler avec SHACL et RDF star.
+
+
+#### Création d’un SPARQL endpoint
+
+- serveur SPARQL Apache Jena Fuseki
+- protocole SPARQL 1.1
+
+#### Configuration d’un triple store
+
+Les données sont gérées dans le tripleStore TDB2.
+
+Fonctionnalités:
+
+- graphes nommés
+- RDF*
+- requêtes RDF
+
+### Interface de requête SPARQL (en option)
+
+Configuration d’une interface de requête YASGUI
+
+### Moteur inférence (revoir)
+
+inférences
+
+### Définition des requêtes pour la création de l’API
+
+Requêtes préparées pour les fonctions principales de l’API
+
+Crafts Configurable REST APIs For TRiple Stores
+
+- Analyse des besoins
+- définition d’un schème d’API
+- rédaction des requêtes SPARQL
+- Implémentation des points d’accès
+
+### Documentation de l’API
+
+Documentation de l’API au standard [OpenAPI Specification](https://www.openapis.org)
+
+### User (à discuter selon que Jena...)
+
+### Déploiement
+
+Déploiement sur serveur configuré en environnement Java muni d’un point d’accès SSH.
+- configuration du conteneur de servlets Tomcat
+- installation des outils du framework Jena (Fuseki, TDB2, etc.) <!-- préciser la liste -->
+
+Scripts pour la configuration et le déploiement de l’API
+
+
+### à fournir par le client
+
+un environnement serveur sécurisé accessible par SSH
+
+- java
+- git
+- ssh
+- outil systèmes, accès root avec sudo
+- nano
+- node ?
+- https
