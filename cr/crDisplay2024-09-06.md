@@ -97,7 +97,7 @@ CRAFTS est un outil facile à utiliser pour tous ses utilisateurs (data consumer
 
 Son module de validation est robuste : il ne nous laissera pas implémenter des solutions techniquement problématiques pour le fonctionnement de l'API.
 
-Définition d’un schème d’API : solution clé en main avec CRAFTS, voir Vega-Gorgojo (2022, section III, B)
+Définition d’un schème d’API : voir Vega-Gorgojo (2022, section III, B)
 
 Rédaction des requêtes SPARQL : prise en charge par CRAFTS des templates de requêtes SPARQL, ce qui permet de configurer une librairie de requêtes basée sur nos besoins. Les requêtes sont exécutées en passant par les point d'accès proposés par CRAFTS.
 
@@ -133,6 +133,8 @@ Users : quels accès aux données du Triple Store?
 
 #### Documentation Jena
 
+Access control
+
 - https://jena.apache.org/documentation/fuseki2/fuseki-security
 - https://jena.apache.org/documentation/permissions/
   - https://jena.apache.org/documentation/permissions/example.html
@@ -159,6 +161,7 @@ Déploiement sur serveur configuré en environnement Java muni d’un point d’
 - installation des outils du framework Jena
   - Fuseki2 (.WAR)
   - l'installantion de l'application  dans Tomcat vient avec tout le nécessaire pour un serveur HTTP fonctionnel et pleinement compatible avec SPARQL 1.1 (UI, HTTP, points d'accès, ARQ, TDB2 et moteurs d'inférence)
+- installation et configuration de Apache 2.4 qui agira comme reverse proxy devant Fuseki et CRAFTS et qui s'occupera de l'encryption (https)
 
 Les fichiers de configuration de Fuseki sont au format Turtle. Ils sont consitutés de deux principales composantes :
 
@@ -182,10 +185,15 @@ Le serveur CRAFTS est une application Node.js. Il peut être déployé et mis à
 
 un environnement serveur sécurisé accessible par SSH
 
+Système recommandé : Ubuntu server 24.04
+
+- Apache (as reverse proxy)
 - java
-- git
+- Tomcat 10
+- node
 - ssh
 - outil systèmes, accès root avec sudo
+- git
 - nano
-- node ?
-- https
+- certificat de sécurité+clé pour TLS
+
