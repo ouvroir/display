@@ -8,9 +8,7 @@ tags:
     - cr 
 ---
 
-## Notes
-
-# Rdv David Valentine, 6 septembre 2024
+## NRdv David Valentine, 6 septembre 2024
 
 Discussion préliminaire
 

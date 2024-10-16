@@ -8,6 +8,18 @@ tags:
      - display
 
 ---
+## 2024-09-06
+
+## 2024-09-03
+
+## 2024-07-31
+
+## 2024-06-27
+
+## 2024-06-18
+
+## 2024-03-27
+
 ## 2024-03-13
 
 ## 2024-03-07
@@ -34,7 +46,7 @@ Ontologie :
 - Défi points de vue multiples : qu'est-ce qu'on fait pour placer les objet les uns par rapport aux autres dans ce cas là?
 - 2 sortes de topologique ?: 
  une basée sur les points de vue : à gauche à droite ambiguë
- une basée sur les relations entre les expôts. : ECD pour cette sorte afin d'exclure la visite. 
+  une basée sur les relations entre les expôts. : ECD pour cette sorte afin d'exclure la visite. 
 - On a fini de décrire les 6 premières salles de Feux Pâles
 - visualisation requête sparql pour vitrine DH : Sparnatural
 
@@ -215,8 +227,8 @@ Relations topologiques (entre les expots) comme entités avec des attributs
 - Faut-il représenter l'espace? Pourrait-il s'exprimer autrement?
 - Première question pour trancher: 
  orienté objet ou événement? --> on choisit d’adopter une approche très matérielle dans la définition de l’ontologie.
-comment traiter l'espace et la topologie? 
-combiner CIDOC mais avec d'autres modèlesau besoin
+ comment traiter l'espace et la topologie? 
+ combiner CIDOC mais avec d'autres modèlesau besoin
 
 #todo
 test avec l'[exposition de la collection par Geneviève Cadieux](https://macrepertoire.macm.org/evenement/l-oeil-et-l-esprit-point-de-vue-de-genevieve-cadieux/) au MAC
@@ -437,6 +449,6 @@ Evaluer BD-oracle et [docuverse](https://docuverse.io) car [utilisé](http://www
 
 ## 2021-11-22
  Marie Fraser, Marilie Labonté, Alexandra Dumarais, Hend Ben Salah, Didier Prioul, Emmanuel Château-Dutier, Kristine Tanton, Lena Krause
-  
+
 Définir une manière de **colliger les informations retrouvées dans les archives lorsque l’on fait de la recherche sur les expositions de collections**. Ces expositions sont probablement fort moins documentées que les expositions temporaires, ne serait-ce que par la documentation photographique conservée.
 
